@@ -1,0 +1,9 @@
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "API Updater Configuration Validation",
+            "PackageVersion": "1.7.0-pre.1"
+        }
+    ],
+    "WarningExceptions": []
+}
