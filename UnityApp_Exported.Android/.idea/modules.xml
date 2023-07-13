@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/UnityApp_Exported.Android.launcher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/UnityApp_Exported.Android.launcher.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/UnityApp_Exported.Android.launcher.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/UnityApp_Exported.Android.launcher.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary/UnityApp_Exported.Android.unityLibrary.unitTest.iml" />
     </modules>

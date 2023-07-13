@@ -92,7 +92,6 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
             return;
 
         mUnityPlayer.resume();
-        UnityPlayer.UnitySendMessage();
     }
 
     // Pause Unity

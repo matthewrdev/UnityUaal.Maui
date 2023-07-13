@@ -12,6 +12,9 @@
 
 
 
+extern void Bridge_Update_mAA9CCFBDE186F5C11C88FF30F93444A686BBAE4A (void);
+extern void Bridge_SendContent_m4A9790BD582A5B8DCC92EB7065DE06E909D7D116 (void);
+extern void Bridge__ctor_m9FB5D4256898DB07445B9B3CB6E7D2565341156E (void);
 extern void NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87 (void);
 extern void NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B (void);
 extern void NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C (void);
@@ -38,8 +41,11 @@ extern void SmoothLookAt__ctor_m9843AE72F60497E326897743061C0B635EA0D03D (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_IsEditorOnly_m59E10A16B0BDEA496377805E39C3D90B1E2C4815 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_Get_mDAD527916A4779DB4ACAFEADC3BA7372671FA647 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_mE2C680837D47039E3F06032AA8C63FEDB7E783A5 (void);
-static Il2CppMethodPointer s_methodPointers[26] = 
+static Il2CppMethodPointer s_methodPointers[29] = 
 {
+	Bridge_Update_mAA9CCFBDE186F5C11C88FF30F93444A686BBAE4A,
+	Bridge_SendContent_m4A9790BD582A5B8DCC92EB7065DE06E909D7D116,
+	Bridge__ctor_m9FB5D4256898DB07445B9B3CB6E7D2565341156E,
 	NewBehaviourScript_Start_mDEAA416D3A6676A79851DDF6B62D676E53372A87,
 	NewBehaviourScript_Update_m68CAC9D7524B9FA1DFCA3F99BA694CD73147209B,
 	NewBehaviourScript__ctor_mD2E080DE77BCDB61B6D2EC8AD996FAE611B97F3C,
@@ -67,40 +73,43 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_Get_mDAD527916A4779DB4ACAFEADC3BA7372671FA647,
 	UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_mE2C680837D47039E3F06032AA8C63FEDB7E783A5,
 };
-static const int32_t s_InvokerIndices[26] = 
+static const int32_t s_InvokerIndices[29] = 
 {
-	1158,
-	1158,
-	1158,
-	2317,
-	1914,
-	1158,
-	1158,
-	1158,
-	1158,
-	1147,
-	1147,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	1158,
-	2287,
-	2299,
-	1158,
+	1159,
+	594,
+	1159,
+	1159,
+	1159,
+	1159,
+	2318,
+	1915,
+	1159,
+	1159,
+	1159,
+	1159,
+	1148,
+	1148,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	1159,
+	2288,
+	2300,
+	1159,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	26,
+	29,
 	s_methodPointers,
 	0,
 	NULL,

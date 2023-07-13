@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bridge
     - MouseOrbit
     - NewBehaviourScript
     Unity.Rider.Editor.dll:
@@ -47,6 +48,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 18222}
     - Class: 114
       Script: {instanceID: 23634}
+    - Class: 114
+      Script: {instanceID: 26992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -916,6 +919,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bridge
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

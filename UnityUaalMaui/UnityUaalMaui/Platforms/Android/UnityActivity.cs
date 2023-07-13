@@ -19,7 +19,7 @@ public class UnityActivity : Activity, IUnityPlayerLifecycleEvents
 
         player = new UnityPlayerForActivityOrService(this, this);
 
-        UnityPlayer.UnitySendMessage()
+        //UnityPlayer.UnitySendMessage()
 
         this.SetContentView(player.FrameLayout);
     }
