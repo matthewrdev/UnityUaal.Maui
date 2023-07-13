@@ -26,30 +26,56 @@ Therefore combining these two techs means we can get the best of both worlds:
 
 ## Creating Unity Project
 
+ * Outline steps to create a new unity project -> Link to sample included here
+
 ## Exporting Unity Project
+
+ * Outline how to configure the unity project export (Android, iOS => IL2CPP + require runtimes)
 
 ## Building Platform Binaries
 
 ### Android
 
+Building the Android aar.
+
 ### iOS
+
+Building the iOS framework
 
 ## Binding Platform Binaries
 
 ### Android
 
+Creating the Java binding project
+
 ### iOS
+
+Creating the 
 
 ## Integrating Into MAUI
 
 ### Android
 
+ Linking to binding project.
+ Creating an activity.
+ Launching this activity.
+
 ### iOS
+
+ Linking to binding project.
+ Creating the unity view controller.
+ Loading the unity runtime.
+ Launchgint the view controller
 
 ## Communicating Between Unity and MAUI
 
-More than likely need to send data between
+More than likely need to send data between.
 
+ * Creating data sharing bridge in Unity (iOS and Android impl)
+ * Implementing the data bridge in MAUI
+ * Sending the data via Unity
+ * Sending the data via Maui.
 
 ## Summary
 
+TODO: Summarise everything above (steps, complexities, why the heck we'd do this?)
