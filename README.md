@@ -36,17 +36,21 @@ Therefore combining these two techs means we can get the best of both worlds:
 
 ### Android
 
-Building the Android aar.
+Building the Android aar using the generated gradle file.
+
+Where to find the artifact created?
 
 ### iOS
 
-Building the iOS framework
+Building the iOS framework using the generated xcode project.
+
+Where to find
 
 ## Binding Platform Binaries
 
 ### Android
 
-Creating the Java binding project
+Creating the Java binding project.
 
 ### iOS
 
@@ -56,8 +60,19 @@ Creating the
 
 ### Android
 
+ Adding the required resources for Unity:
+ 
+**strings.xml**
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="game_view_content_description">Game view</string>
+</resources>
+
+```
+ 
  Linking to binding project.
- Creating an activity.
+ Creating an activity (either usin
  Launching this activity.
 
 ### iOS
