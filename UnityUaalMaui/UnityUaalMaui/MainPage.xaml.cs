@@ -1,4 +1,5 @@
-﻿namespace UnityUaalMaui;
+﻿
+using System;namespace UnityUaalMaui;
 
 public partial class MainPage : ContentPage
 {
@@ -12,11 +13,20 @@ public partial class MainPage : ContentPage
     void openUnityButton_Clicked(System.Object sender, System.EventArgs e)
     {
 #if __ANDROID__
-		// TODO: Start the Unity Activity here.
-#elif __IOS__
+        var intent = new Android.Content.Intent(Microsoft.Maui.ApplicationModel.Platform.CurrentActivity, typeof(UnityActivity));
+
+        Microsoft.Maui.ApplicationModel.Platform.CurrentActivity.StartActivity(intent);
+#endif
+
+#if __IOS__
 		// TODO: Start the Unity ViewController here.
 #endif
-	}
+    }
+
+    public void sendContentButton_Clicked(object sender, EventArgs e)
+    {
+    }
+
 }
 
 

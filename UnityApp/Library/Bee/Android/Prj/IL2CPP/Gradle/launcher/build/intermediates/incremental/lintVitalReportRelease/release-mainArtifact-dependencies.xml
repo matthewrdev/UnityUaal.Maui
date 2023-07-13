@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release">
+    <dependency
+        name="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release,__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-gamesdk.jar:unspecified@jar">
+    <dependency
+        name="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"/>
+    <dependency
+        name="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-gamesdk.jar:unspecified@jar"
+        simpleName="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-gamesdk.jar"/>
+  </package>
+</dependencies>

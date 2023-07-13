@@ -1,0 +1,15 @@
+[
+  "/build/version/SDK_INT",
+  "/baseline/LargeMemoryClass",
+  "/baseline/LowRamDevice",
+  "/baseline/MemoryClass",
+  "/baseline/meminfo/Mlocked",
+  "/baseline/meminfo/SwapTotal",
+  "/baseline/meminfo/Unevictable",
+  "/baseline/meminfo/VmallocTotal",
+  "/baseline/MemoryInfo/availMem",
+  "/baseline/MemoryInfo/threshold",
+  "/baseline/MemoryInfo/totalMem",
+  "/baseline/status/VmExe",
+  "/baseline/status/VmStk"
+]

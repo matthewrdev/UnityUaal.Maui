@@ -1,0 +1,23 @@
+<libraries>
+  <library
+      name="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+      jars="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/b97bd952c0464d534d5ab7dd22001f04/transformed/out/jars/classes.jar:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/b97bd952c0464d534d5ab7dd22001f04/transformed/out/jars/libs/unity-classes.jar:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/b97bd952c0464d534d5ab7dd22001f04/transformed/out/jars/libs/unity-gamesdk.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/.transforms/b97bd952c0464d534d5ab7dd22001f04/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+  <library
+      name="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-gamesdk.jar:unspecified@jar"
+      jars="/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-gamesdk.jar"
+      resolved="__local_aars__:/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-gamesdk.jar:unspecified"/>
+</libraries>

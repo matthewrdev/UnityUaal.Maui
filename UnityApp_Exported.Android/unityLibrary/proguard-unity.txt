@@ -1,0 +1,30 @@
+-keep class bitter.jnibridge.* { *; }
+-keep class com.unity3d.player.* { *; }
+-keep interface com.unity3d.player.IUnityPlayerLifecycleEvents { *; }
+-keep class org.fmod.* { *; }
+-keep class com.google.androidgamesdk.ChoreographerCallback { *; }
+-keep class com.google.androidgamesdk.SwappyDisplayManager { *; }
+-keep class androidx.core.graphics.Insets** { *; }
+-keep class androidx.core.view.WindowInsetsCompat** { *; }
+-keep class com.google.android.games.paddleboat.** { *; }
+-keep class com.google.androidgamesdk.gametextinput.** { *; }
+-keepclassmembers class com.google.androidgamesdk.GameActivity {
+  void setWindowFlags(int, int);
+  public androidx.core.graphics.Insets getWindowInsets(int);
+  public androidx.core.graphics.Insets getWaterfallInsets();
+  public void setImeEditorInfo(android.view.inputmethod.EditorInfo);
+  public void setImeEditorInfoFields(int, int, int);
+}
+-ignorewarnings
+
+# don't warn if playcore plugin wasn't added to project
+-dontwarn com.google.android.play.core.assetpacks.AssetPackLocation
+-dontwarn com.google.android.play.core.assetpacks.AssetPackManager
+-dontwarn com.google.android.play.core.assetpacks.AssetPackManagerFactory
+-dontwarn com.google.android.play.core.assetpacks.AssetPackState
+-dontwarn com.google.android.play.core.assetpacks.AssetPackStateUpdateListener
+-dontwarn com.google.android.play.core.assetpacks.AssetPackStates
+-dontwarn com.google.android.play.core.tasks.OnCompleteListener
+-dontwarn com.google.android.play.core.tasks.OnSuccessListener
+-dontwarn com.google.android.play.core.tasks.RuntimeExecutionException
+-dontwarn com.google.android.play.core.tasks.Task

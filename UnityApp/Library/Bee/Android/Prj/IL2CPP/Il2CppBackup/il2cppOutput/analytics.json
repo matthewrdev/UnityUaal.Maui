@@ -1,0 +1,35 @@
+{
+  "DataTable": {
+    "attribute_total_count_eager_static_constructor": 9,
+    "attribute_total_count_set_option": 0,
+    "attribute_total_count_generate_into_own_cpp_file": 0,
+    "attribute_total_count_ignore_by_deep_profiler": 0,
+    "extra_types_total_count": 0,
+    "option_extra_types_file_count": 0,
+    "option_jobs": 8,
+    "option_debug_assembly_name_count": 0,
+    "option_additional_cpp_count": 0,
+    "option_emit_null_checks": true,
+    "option_enable_stacktrace": false,
+    "option_enable_deep_profiler": false,
+    "option_enable_stats": false,
+    "option_enable_array_bounds_check": true,
+    "option_enable_divide_by_zero_check": false,
+    "option_emit_comments": false,
+    "option_disable_generic_sharing": false,
+    "option_maximum_recursive_generic_depth": -1,
+    "option_generic_virtual_method_iterations": -1,
+    "option_code_generation_option": [
+      "EnableInlining"
+    ],
+    "option_file_generation_option": [],
+    "option_generics_option": [],
+    "option_feature": [],
+    "option_diagnostic_option": [],
+    "option_convert_to_cpp": true,
+    "option_compile_cpp": false,
+    "option_development_mode": false,
+    "option_enable_debugger": false,
+    "option_generate_usym_file": false
+  }
+}

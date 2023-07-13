@@ -1,0 +1,768 @@
+Payload for "WriteText Library/Bee/artifacts/csharpactions/boot.config_x4e9.info"
+
+{"System.Object":null,"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.PlayerBuildProgramBase","methodName":"WriteBootConfigAction","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/boot.config"],"inputs":["Library/PlayerDataCache/Android/Data/boot.config","Library/PlayerDataCache/Android/Data/boot.config","Library/PlayerDataCache/Android/Data/data.unity3d","Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json","Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AIModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ARModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AndroidJNIModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AnimationModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AssetBundleModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AudioModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ClothModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.CommandStateObserverModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ContentLoadModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.CoreModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.CrashReportingModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.DSPGraphModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.DirectorModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.GIModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.GameCenterModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.GraphToolsFoundationModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.GridModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.HotReloadModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.IMGUIModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ImageConversionModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.InputLegacyModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.InputModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.JSONSerializeModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.LocalizationModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.MarshallingModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ParticleSystemModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.PerformanceReportingModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.Physics2DModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.PhysicsModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ProfilerModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.PropertiesModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ScreenCaptureModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.SharedInternalsModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.SpriteMaskModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.SpriteShapeModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.StreamingModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.SubstanceModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.SubsystemsModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TLSModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TerrainModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TerrainPhysicsModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TextCoreFontEngineModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TextCoreTextEngineModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TextRenderingModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.TilemapModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UIElementsModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UIModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UmbraModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsCommonModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityConnectModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityCurlModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityTestProtocolModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAudioModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestWWWModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.VFXModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.VRModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.VehiclesModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.VideoModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.WindModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.XRModule.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Accessibility.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/Microsoft.Win32.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/Microsoft.Win32.Registry.AccessControl.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/Microsoft.Win32.Registry.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.AppContext.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Buffers.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.Concurrent.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.NonGeneric.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.Specialized.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Collections.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.Annotations.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.EventBasedAsync.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.TypeConverter.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ComponentModel.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Console.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Data.Common.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Data.SqlClient.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Contracts.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Debug.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.FileVersionInfo.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Process.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.StackTrace.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.TextWriterTraceListener.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Tools.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.TraceEvent.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.TraceSource.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Diagnostics.Tracing.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Drawing.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Dynamic.Runtime.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Globalization.Calendars.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Globalization.Extensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Globalization.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.Compression.ZipFile.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.AccessControl.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.DriveInfo.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.Watcher.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.FileSystem.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.IsolatedStorage.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.MemoryMappedFiles.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.Pipes.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.UnmanagedMemoryStream.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.IO.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.Expressions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.Parallel.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.Queryable.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Linq.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Memory.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.AuthenticationManager.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Cache.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.HttpListener.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Mail.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.NameResolution.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.NetworkInformation.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Ping.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Requests.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Security.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.ServicePoint.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Sockets.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.Utilities.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.WebHeaderCollection.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.WebSockets.Client.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Net.WebSockets.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ObjectModel.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.DispatchProxy.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Emit.ILGeneration.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Emit.Lightweight.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Emit.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Extensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.TypeExtensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Reflection.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.Reader.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.ReaderWriter.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.ResourceManager.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Resources.Writer.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.CompilerServices.VisualC.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Extensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Handles.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.InteropServices.RuntimeInformation.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.InteropServices.WindowsRuntime.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.InteropServices.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Loader.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Numerics.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Formatters.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Json.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.Serialization.Xml.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Runtime.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.AccessControl.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Claims.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Algorithms.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Cng.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Csp.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.DeriveBytes.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encoding.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.Aes.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.ECDsa.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Encryption.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Hashing.Algorithms.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Hashing.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.OpenSsl.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Pkcs.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.ProtectedData.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.RSA.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.RandomNumberGenerator.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Cryptography.X509Certificates.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Principal.Windows.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.Principal.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Security.SecureString.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Duplex.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Http.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.NetTcp.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceModel.Security.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ServiceProcess.ServiceController.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.Encoding.CodePages.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.Encoding.Extensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.Encoding.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Text.RegularExpressions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.AccessControl.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Overlapped.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Tasks.Extensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Tasks.Parallel.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Tasks.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Thread.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.ThreadPool.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.Timer.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Threading.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.ValueTuple.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.ReaderWriter.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XDocument.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XPath.XDocument.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XPath.XmlDocument.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XPath.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XmlDocument.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.XmlSerializer.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/System.Xml.Xsl.Primitives.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Facades/netstandard.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Microsoft.CSharp.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Mono.Data.Sqlite.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Mono.Data.Tds.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/Mono.Security.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ComponentModel.Composition.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ComponentModel.DataAnnotations.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Configuration.Install.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Configuration.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Core.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.DataSetExtensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Entity.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Linq.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.OracleClient.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Services.Client.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.Services.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Data.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Design.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.DirectoryServices.Protocols.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.DirectoryServices.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Drawing.Design.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Drawing.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.EnterpriseServices.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IO.Compression.FileSystem.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IO.Compression.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IdentityModel.Selectors.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.IdentityModel.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Json.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Management.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Messaging.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Net.Http.WebRequest.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Net.Http.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Net.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Numerics.Vectors.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Numerics.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Reflection.Context.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Caching.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.DurableInstancing.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Remoting.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Serialization.Formatters.Soap.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Runtime.Serialization.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Security.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Activation.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Discovery.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Internals.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Routing.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.Web.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceModel.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.ServiceProcess.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Transactions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.ApplicationServices.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.DynamicData.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.Extensions.Design.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.Extensions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.RegularExpressions.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.Services.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Web.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Windows.Forms.DataVisualization.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Windows.Forms.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Windows.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xaml.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xml.Linq.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xml.Serialization.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.Xml.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/System.dll","/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityaot-linux/mscorlib.dll","Library/Bee/Player5bc20dad-inputdata.json"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_ki5r.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_pcel.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/Mono.Security.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_pwj8.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/mscorlib.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_vfp9.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/System.Configuration.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_k2yd.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/System.Core.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_v90b.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/System.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_wnnz.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/System.Xml.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AndroidJNIModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AudioModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.CoreModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_x1ug.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputLegacyModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PhysicsModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule-FeaturesChecked.txt_m9z5.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PropertiesModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info"
+
+{"PlayerBuildProgramLibrary.FeatureExtractor+Data":{"ignoreSystemDlls":true,"featuresToCheck":[{"referenceName":"UnityEngine.Networking.NetworkDiscovery"},{"referenceName":"UnityEngine.WebCamTexture"},{"referenceName":"UnityEngine.Microphone"},{"referenceName":"UnityEngine.Networking"},{"referenceName":"System.Net.Sockets"},{"referenceName":"UnityEngine.Network"},{"referenceName":"UnityEngine.RPC"},{"referenceName":"UnityEngine.WWW"},{"referenceName":"UnityEngine.Ping"},{"referenceName":"UnityEngine.Networking.UnityWebRequest"},{"referenceName":"UnityEngine.Input::set_multiTouchEnabled"},{"referenceName":"UnityEngine.Handheld::Vibrate"},{"referenceName":"UnityEngine.Application::get_internetReachability"},{"referenceName":"UnityEngine.Input::get_location"},{"referenceName":"UnityEngine.Input::get_acceleration"},{"referenceName":"UnityEngine.Input::GetAccelerationEvent"},{"referenceName":"UnityEngine.Input::get_accelerationEvents"},{"referenceName":"UnityEngine.Input::get_accelerationEventCount"},{"referenceName":"UnityEngine.Input::get_touches"},{"referenceName":"UnityEngine.Input::GetTouch"},{"referenceName":"UnityEngine.Input::get_touchCount"},{"referenceName":"UnityEngine.Input::get_multiTouchEnabled"},{"referenceName":"UnityEngine.Networking.NetworkTransport::SetMulticastLock"},{"referenceName":"UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn"},{"referenceName":"UnityEngine.Android.AndroidGame::get_GameMode"},{"referenceName":"UnityEngine.Android.AndroidGame::SetGameState"}]},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.FeatureExtractor","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SharedInternalsModule.dll"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/Android/dqdht/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "WriteText Library/Bee/artifacts/Android/zz99l/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ldow_libil2cpp0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/UnityAdsStubs.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/char-conversions.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-api.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-benchmark-support.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-mono-api.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/il2cpp-runtime-stats.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/9o5o_codegen0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/codegen/il2cpp-codegen-common.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/codegen/il2cpp-codegen-il2cpp.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/codegen/il2cpp-codegen-tiny.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/afkc_gc0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/gc/BoehmGC.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/gc/GCHandle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/gc/GarbageCollector.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/gc/NullGC.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/gc/WriteBarrier.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/gc/WriteBarrierValidation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/8mwj_Mono0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/Runtime.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/RuntimeClassHandle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/RuntimeGPtrArrayHandle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/RuntimeMarshal.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/Mono/SafeStringMarshal.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ybce_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Diagnostics/Debugger.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Diagnostics/StackFrame.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Diagnostics/StackTrace.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/bqgt_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CalendarData.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CompareInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CultureData.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/CultureInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Globalization/RegionInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/cb01_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/DriveInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/MonoIO.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.IO/Path.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/p559_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/Assembly.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/CustomAttributeData.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/EventInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/ParameterInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeMethodInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/p559_System1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/AssemblyName.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/FieldInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/Module.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/MonoMethodInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeAssembly.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeEventInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeModule.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeParameterInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/p559_System2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/MethodBase.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/MonoMethod.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeConstructorInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimeFieldInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Reflection/RuntimePropertyInfo.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/vy96_em.Runtime0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/GCHandle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/Marshal.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.InteropServices/RuntimeInformation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/lrtu_e.Remoting0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.Remoting.Messaging/AsyncResult.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Runtime.Remoting.Messaging/MonoMethodMessage.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/6m8t_m.Security0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Security.Principal/WindowsIdentity.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Security.Principal/WindowsImpersonationContext.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Security.Principal/WindowsPrincipal.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/3qen_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Text/EncodingHelper.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Text/Normalization.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/yun5_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/InternalThread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Monitor.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Mutex.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/NativeEventCalls.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/OSSpecificSynchronizationContext.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Thread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/Timer.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System.Threading/WaitHandle.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/shd6_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/ArgIterator.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeFieldHandle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Type.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/shd6_System1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/AppDomain.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Array.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/CurrentSystemTimeZone.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/DateTime.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/NumberFormatter.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Object.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeMethodHandle.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/shd6_System2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Buffer.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/GC.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/MonoCustomAttrs.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeType.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/RuntimeTypeHandle.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/shd6_System3.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/CLRConfig.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/ConsoleDriver.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Delegate.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Enum.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Exception.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/Number.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/String.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/TypedReference.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/mscorlib/System/ValueType.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/siwh_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/DefaultTraceListener.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/FileVersionInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/Process.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Diagnostics/Stopwatch.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/rjl7_System.Net0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Net.Sockets/Socket.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/icalls/System/System.Net.Sockets/SocketException.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/tf27_metadata0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/CustomAttributeCreator.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/CustomAttributeDataReader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/FieldLayout.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/GenericMetadata.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/GenericSharing.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericContextCompare.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericMethodHash.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppSignature.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/tf27_metadata1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/ArrayMetadata.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/GenericMethod.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericContextHash.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericMethodCompare.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppTypeCompare.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/tf27_metadata2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericClassCompare.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericClassHash.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericInstCompare.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppGenericInstHash.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/metadata/Il2CppTypeHash.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/o9d5_ThreadPool0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/ThreadPoolMonitorThread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/ThreadPoolWorkerThread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/threadpool-ms-io-poll.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/threadpool-ms-io.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/mono/ThreadPool/threadpool-ms.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/yflb_Android0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Android/ConsoleExtension.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Android/Initialize.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Android/Locale.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Android/StackTrace.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/79fx_c-api0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/CultureInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Error.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/File.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Locale.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/79fx_c-api1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Allocator.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Console.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Directory.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Path.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Socket.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/c-api/Time.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/zd3v_LibraryPAL0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_errno.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_io.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_networking.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_random.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_sizecheck.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_time.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_uid.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ClassLibraryPAL/pal_unused.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/qtcc_os0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/CrashHelpers.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Error.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Event.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/FastReaderReaderWriterLock.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/LibraryLoader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Messages.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Semaphore.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/qtcc_os1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ConditionVariable.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Image.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Mutex.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Path.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/ReaderWriterLock.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Socket.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/StackTrace.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/abw9_Generic0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Initialize.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/WaitObject.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/abw9_Generic1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Assert.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/CpuInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Debug.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Handle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/LibraryLoader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/MemoryMappedFile.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/SystemCertificates.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Thread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/WindowsRuntime.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/abw9_Generic2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/COM.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/CrashHelpers.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/File.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/MarshalStringAlloc.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/SocketBridge.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Generic/SocketImpl.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/7u7u_OSX0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/Image.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/Process.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/SystemCertificates.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/OSX/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/auvj_Posix0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/CrashHelpers.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Error.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Locale.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/PosixHelpers.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Thread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/ThreadImpl.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/auvj_Posix1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Directory.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Encoding.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/FileSystemWatcher.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/MarshalAlloc.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/SocketImpl.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/SystemCertificates.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/auvj_Posix2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/CpuInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Cryptography.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/File.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/LastError.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/LibraryLoader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/MemoryMappedFile.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/auvj_Posix3.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/ConditionVariableImpl.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Console.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Image.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Memory.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/NativeMethods.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Path.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Process.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/StackTrace.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/Time.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Posix/TimeZone.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/2pir_Win320.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Assert.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/CrashHelpers.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/File.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/LibraryLoader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/MarshalStringAlloc.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/2pir_Win321.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Console.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Encoding.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Image.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Locale.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Path.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/2pir_Win322.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/COM.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Cryptography.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Debug.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Directory.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/DllMain.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/FileSystemWatcher.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Initialize.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/MemoryMappedFile.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/NativeMethods.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Process.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/SystemCertificates.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Thread.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/WindowsHelpers.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/2pir_Win323.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/MarshalAlloc.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Memory.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/SocketImpl.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/StackTrace.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/ThreadImpl.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/WindowsRuntime.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/2pir_Win324.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/ConditionVariableImpl.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/CpuInfo.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/LastError.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/SynchronizationContext.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/Time.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/Win32/TimeZone.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/1ixf_WinRT0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Cryptography.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/File.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Initialize.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Locale.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Win32ApiSharedEmulation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/1ixf_WinRT1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/BrokeredFileSystem.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/MarshalAlloc.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Process.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/os/WinRT/Win32ApiWinRTEmulation.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/3t85_utils0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Output.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Runtime.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/mono-structs.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/sha1.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/3t85_utils1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Exception.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Il2CppError.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Logging.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Memory.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryMappedFile.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryPool.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryRead.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/3t85_utils2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/DirectoryUtils.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/Environment.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/MarshalingUtils.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/MemoryPoolAddressSanitizer.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/PathUtils.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/utils/StringUtils.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/dmad_vm-utils0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/BlobReader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/DebugSymbolReader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/Debugger.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/Finally.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/NativeSymbol.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/VmStringUtils.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/VmThreadUtils.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/w90p_System0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/icalls/mscorlib/System/Math.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm-utils/icalls/mscorlib/System/MathF.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm0.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/ClassInlines.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/ComObjectBase.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Module.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Path.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/String.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/VisualizerHelpers.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/WindowsRuntime.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm1.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Array.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Assembly.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/MarshalAlloc.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Object.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/PlatformInvoke.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Reflection.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/WaitHandle.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/WeakReference.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm2.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/COM.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/COMEntryPoints.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Enum.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Exception.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/InternalCalls.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Liveness.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/MetadataAlloc.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Profiler.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/RCW.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm3.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/CCW.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/ClassLibraryPAL.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Domain.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/GlobalMetadata.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/LastError.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/MemoryInformation.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Method.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Monitor.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Random.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/ScopedThreadAttacher.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Thread.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm4.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/AssemblyName.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/CCWBase.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/GenericClass.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/GenericContainer.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Image.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Parameter.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Property.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Type.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm5.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Field.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Il2CppHStringReference.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/MetadataLoader.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Runtime.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/StackTrace.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/ThreadPoolMs.cpp"
+    
+
+Payload for "MakeLump Library/Bee/artifacts/Android/87lik/ln85_vm6.lump.cpp"
+
+//Generated lump file. generated by Bee.NativeProgramSupport.Lumping
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Class.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/Event.cpp"
+#include "/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/il2cpp/libil2cpp/vm/MetadataCache.cpp"
+    
+
+Payload for "WriteText Library/Bee/artifacts/Android/87lik/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "WriteText Library/Bee/artifacts/Android/d8kzr/_dummy_for_header_discovery"
+
+//dummy for header discovery    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/IntermediateFiles.txt_ri9j.info"
+
+{"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments":{"ProjectPath":"/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle","Architectures":"ARM64","BuildSystem":"Gradle","GradleProjectCreateInfo":{"ArtifactsPath":"Library/Bee/artifacts/Android","EnvironmentVariableInputs":["UNITY_THISISABUILDMACHINE:"],"HostPlatform":"OSX","ApplicationType":"APK","BuildType":"Release","AndroidSDKPath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/SDK","AndroidNDKPath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/NDK","AndroidJavaPath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/OpenJDK","PreferredHeapSizeForJVM":4096,"GradleVersion":"7.3.3","UnityProguardTemplatePath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Tools/UnityProGuardTemplate.txt","UnityLibraryBuildGradleRelativePath":"unityLibrary/build.gradle","LauncherBuildGradleRelativePath":"launcher/build.gradle","BaseProjectBuildGradleRelativePath":"build.gradle","GradlePropertiesRelativePath":"gradle.properties","LocalPropertiesRelativePath":"local.properties","AdditionalLibrariesRelativePaths":[],"UnityProguardRelativePath":"unityLibrary/proguard-unity.txt","UserProguardRelativePath":"unityLibrary/proguard-user.txt","GradleSettingsRelativePath":"settings.gradle","BuildTools":"32.0.0","TargetSDKVersion":33,"MinSDKVersion":22,"PackageName":"com.DefaultCompany.UnityApp","Architectures":"ARM64","BuildApkPerCpuArchitecture":false,"VersionCode":1,"VersionName":"0.1","Minify":1,"NoCompressOptions":{"RelativeFilePaths":[],"FileExtensions":[]},"UseCustomKeystore":false,"KeystorePath":"","KeystoreName":"","KeystorePassword":"","KeystoreAliasName":"","KeystoreAliasPassword":"","ScriptingImplementation":"IL2CPP","AndroidLibraries":[],"AARFiles":[],"BuiltinJavaSourcePaths":["com/unity3d/player/UnityPlayerActivity.java"],"JavaSourcePaths":[],"KotlinSourcePaths":[],"PlayerPackage":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer","PlayerPackageTools":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Tools","SymlinkSources":false,"InstallIntoBuildsFolder":false,"UnityPath":"","UnityProjectPath":"/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp","OverrideCMakeIntermdiateDirectory":true,"Dependencies":[],"ApplicationEntry":"Activity","JarFiles":["classes.jar","gamesdk.jar"],"ReportGooglePlayAppDependencies":false,"UnityVersion":"2023.1.0a20"}},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.exe","targets":["Library/Bee/artifacts/Android/IntermediateFiles.txt","Library/Bee/artifacts/Android/Gradle/build.gradle","Library/Bee/artifacts/Android/Gradle/unityLibrary/build.gradle","Library/Bee/artifacts/Android/Gradle/launcher/build.gradle","Library/Bee/artifacts/Android/Gradle/gradle.properties","Library/Bee/artifacts/Android/Gradle/local.properties","Library/Bee/artifacts/Android/Gradle/settings.gradle","Library/Bee/artifacts/Android/Gradle/launcher/build.gradle.xml","Library/Bee/artifacts/Android/Gradle/unityLibrary/build.gradle.xml","Library/Bee/artifacts/Android/Gradle/build.gradle.xml","Library/Bee/artifacts/Android/Gradle/settings.gradle.xml","Library/Bee/artifacts/Android/Gradle/gradle.properties.xml","Library/Bee/artifacts/Android/Gradle/unityLibrary/proguard-unity.txt","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"],"inputs":["/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Tools/UnityProGuardTemplate.txt"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/IntermediateLauncherManifestDiag.txt_4oyd.info"
+
+{"AndroidPlayerBuildProgram.Actions.GenerateManifests+Arguments":{"Configuration":{"PackageName":"com.DefaultCompany.UnityApp","TargetSDKVersion":33,"LauncherManifestTemplatePath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml","LibraryManifestTemplatePath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml","LibraryManifestCustomTemplateUsed":false,"LauncherManifestPath":"launcher/src/main/AndroidManifest.xml","LibraryManifestPath":"unityLibrary/src/main/AndroidManifest.xml","TVCompatibility":false,"BannerEnabled":true,"IsGame":true,"PreferredInstallLocation":"PreferExternal","TextureSupport":"Generic","GamepadSupportLevel":"SupportsDPad","TargetDevices":"AllDevices","SupportedAspectRatioMode":1,"MaxAspectRatio":2.1,"ForceInternetPermission":false,"UseLowAccuracyLocation":false,"ForceSDCardPermission":false,"PreserveFramebufferAlpha":false,"DefaultInterfaceOrientation":"AutoRotation","AllowedAutorotateToPortrait":true,"AllowedAutorotateToPortraitUpsideDown":true,"AllowedAutorotateToLandscapeLeft":true,"AllowedAutorotateToLandscapeRight":true,"ARCoreEnabled":false,"SplashScreenScale":"Center","VREnabled":false,"RenderOutsideSafeArea":true,"GraphicsDevices":["Vulkan","OpenGLES3"],"OpenGLRequireES31":false,"OpenGLRequireES31AEP":false,"OpenGLRequireES32":false,"StartInFullscreen":true,"ChromeOSInputEmulation":true,"DefaultWindowWidth":1920,"DefaultWindowHeight":1080,"MinimumWindowWidth":400,"MinimumWindowHeight":300,"ResizableWindow":false,"FullScreenMode":"FullScreenWindow","ApplicationEntry":"Activity","JavaFileNames":["UnityPlayerActivity.java"]},"Services":{"EnableUnityConnect":false,"EnablePerformanceReporting":false,"EnableAnalytics":false,"EnableCrashReporting":false},"ProjectPath":"/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle","ArtifactsPath":"Library/Bee/artifacts/Android/Manifest","FeatureChecklist":["Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt"],"Development":false,"UsingObb":false,"GradleResourcesInformation":{"TargetSDKVersion":33,"RoundIconsAvailable":false,"RoundIconsSupported":true,"AdaptiveIconsSupported":true,"AdaptiveIconsAvailable":false},"LauncherManifestDiagnosticsPath":"Library/Bee/artifacts/Android/Manifest/IntermediateLauncherManifestDiag.txt","LibraryManifestDiagnosticsPath":"Library/Bee/artifacts/Android/Manifest/IntermediateLibraryManifestDiag.txt"},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"AndroidPlayerBuildProgram.Actions.GenerateManifests","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.exe","targets":["Library/Bee/artifacts/Android/Manifest/IntermediateLauncherManifestDiag.txt","Library/Bee/artifacts/Android/Manifest/IntermediateLibraryManifestDiag.txt","Library/Bee/artifacts/Android/Manifest/launcher/src/main/AndroidManifest.xml","Library/Bee/artifacts/Android/Manifest/unityLibrary/src/main/AndroidManifest.xml"],"inputs":["Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt","Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Apk/LauncherManifest.xml","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Apk/UnityManifest.xml"],"targetDirectories":[]}}    
+
+Payload for "WriteText /Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="BaseUnityTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+  </style>
+</resources>    
+
+Payload for "WriteText /Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="BaseUnityTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+    <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+  </style>
+</resources>    
+
+Payload for "WriteText /Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="UnityThemeSelector" parent="BaseUnityTheme">
+    <item name="android:windowBackground">@android:color/black</item>
+  </style>
+  <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen" />
+  <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+  </style>
+</resources>    
+
+Payload for "WriteText /Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">UnityApp</string>
+  <string name="game_view_content_description">Game view</string>
+</resources>    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_915m.info"
+
+{"PlayerBuildProgramLibrary.ClassRegistrationGenerator+Arguments":{"linkerOutput":"Library/Bee/artifacts/Android/ManagedStripped/UnityLinkerToEditorData.json","editorOutput":"/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json","moduleAssetsPath":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/modules.asset","outputClassRegistration":"/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp","enableStripping":true},"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"PlayerBuildProgramLibrary.ClassRegistrationGenerator","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll","targets":["/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp"],"inputs":["Library/Bee/artifacts/Android/ManagedStripped/UnityLinkerToEditorData.json","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/modules.asset"],"targetDirectories":[]}}    
+
+Payload for "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_8nd7.info"
+
+{"System.Object":null,"Bee.TundraBackend.CSharpActionInvocationInformation":{"typeFullName":"AndroidPlayerBuildProgram.Actions.GuidGenerator","methodName":"Run","assemblyLocation":"/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/AndroidPlayerBuildProgram.exe","targets":["/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid"],"inputs":["Library/PlayerDataCache/Android/Data/data.unity3d","Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json","Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json","Library/Bee/artifacts/Android/boot.config","Library/com.unity.services.core/UnityServicesProjectConfiguration.json","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/artifacts/Android/il2cppOutput/data/Metadata/global-metadata.dat","/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/artifacts/Android/il2cppOutput/data/Resources/mscorlib.dll-resources.dat","/Applications/Unity/Hub/Editor/2023.1.0a20/PlaybackEngines/AndroidPlayer/Data/unity default resources"],"targetDirectories":[]}}    
+
+Payload for "WriteText /Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
+
+2023.1.0a20;IL2CPP;Release;StripEngineCode:1;OptimizedFramePacing:1;    
+
+Payload for "ModifyAndroidProjectCallback /Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml (+8 others)"
+
+{"AndroidPlayerBuildProgram.Data.AndroidProjectFileArgs":{"ProjectPath":"/Users/matthewrobbins/Development/git/UnityUaal.Maui/UnityApp/Library/Bee/Android/Prj/IL2CPP/Gradle","ArtifactsPath":"Library/Bee/artifacts/Android","LauncherManifestPath":"launcher/src/main/AndroidManifest.xml","LibraryManifestPath":"unityLibrary/src/main/AndroidManifest.xml","LauncherBuildGradlePath":"launcher/build.gradle","LibraryBuildGradlePath":"unityLibrary/build.gradle","ProjectLevelBuildGradlePath":"build.gradle","GradlePropertiesPath":"gradle.properties","LocalPropertiesPath":"local.properties","GradleSettingsPath":"settings.gradle","UnityProguardPath":"unityLibrary/proguard-unity.txt","UserProguardPath":"unityLibrary/proguard-user.txt","AdditionalLibrariesBuildGradlePaths":[]}}    
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":unityLibrary:main" external.linked.project.path="$MODULE_DIR$/../../../unityLibrary" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="release" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleRelease" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileReleaseSources" />
+        <afterSyncTasks>
+          <task>generateReleaseSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../unityLibrary/src/main/res;file://$MODULE_DIR$/../../../unityLibrary/src/release/res;file://$MODULE_DIR$/../../../unityLibrary/build/generated/res/rs/release;file://$MODULE_DIR$/../../../unityLibrary/build/generated/res/resValues/release" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/aidl_source_output_dir/release/out" />
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/ap_generated_sources/release/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/ap_generated_sources/release/out" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/renderscript_source_output_dir/release/out" />
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/res/resValues/release">
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/res/resValues/release" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/res/rs/release" />
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/source/buildConfig/release">
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/build/generated/source/buildConfig/release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../unityLibrary/src/main/resources" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../unityLibrary/src/release" />
+    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: ./unityLibrary/libs/unity-classes.jar" level="project" />
+    <orderEntry type="library" name="Gradle: ./unityLibrary/libs/unity-gamesdk.jar" level="project" />
+  </component>
+</module>
