@@ -470,5 +470,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Android output files
-UnityApp_Exported.Android/unityLibrary/build/
+# Ignore temporary exported Android gradle project used to create Unity aar
+/UnityApp_Exported.Android/
