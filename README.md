@@ -22,21 +22,27 @@ Unity has limitations so using MAUI is useful:
 Therefore combining these two techs means we can get the best of both worlds:
 
  * One of the industry leaders in games/3D techs.
- * 
+ * Fully x-plat code base in a native app. No restrictions!
+ * .NET across the whole stack.
 
 ## Creating Unity Project
 
  * Outline steps to create a new unity project -> Link to sample included here
 
+Sample is a ground plane with a few pieces of geometry + camera controls
+
 ## Exporting Unity Project
 
  * Outline how to configure the unity project export (Android, iOS => IL2CPP + require runtimes)
+ * Android => Export project tick box then click export
 
 ## Building Platform Binaries
 
 ### Android
 
 Building the Android aar using the generated gradle file.
+
+ * Open in Android studio
 
 Where to find the artifact created?
 
@@ -52,9 +58,11 @@ Where to find
 
 Creating the Java binding project.
 
+ * 
+
 ### iOS
 
-Creating the 
+Creating the iOS binding project.
 
 ## Integrating Into MAUI
 
@@ -86,11 +94,22 @@ Creating the
 
 More than likely need to send data between.
 
- * Creating data sharing bridge in Unity (iOS and Android impl)
+ * Creating data sharing bridge in Unity
+ * Implementing the data sharing bridge in Java via an Android Unity plugin
+ * Implementing the data sharing bridge in Objective C via an iOS Unity plugin.
  * Implementing the data bridge in MAUI
- * Sending the data via Unity
- * Sending the data via Maui.
+ * Sending the data via Unity to MAUI (Bridge.SendContent)
+ * Receiving the data in MAUI
+ * 
+ * Sending data via Maui to Unity
+
+ * Returning back to the .NET app
+
+
 
 ## Summary
 
 TODO: Summarise everything above (steps, complexities, why the heck we'd do this?)
+
+Link out to LinkedIn + email/contact details if people need help doing this.
+
