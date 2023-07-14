@@ -1,14 +1,31 @@
 ﻿
-using System;namespace UnityUaalMaui;
+using System;
+using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Core;
+
+namespace UnityUaalMaui;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
-
-	public MainPage()
-	{
+    int count = 0;
+    public MainPage()
+    {
 		InitializeComponent();
+
+        Unity.UnityBridge.OnContentReceived += Bridge_OnContentReceived;
+
+
 	}
+
+    private void Bridge_OnContentReceived(object sender, Unity.UnityContentReceivedEventArgs e)
+    {
+        ToastDuration duration = ToastDuration.Short;
+        double fontSize = 14;
+
+        var toast = Toast.Make($"Received from Unity: {e.EventName}{e.EventContent}", duration, fontSize);
+
+        toast.Show().ConfigureAwait(false);
+    }
 
     void openUnityButton_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -25,6 +42,7 @@ public partial class MainPage : ContentPage
 
     public void sendContentButton_Clicked(object sender, EventArgs e)
     {
+        
     }
 
 }

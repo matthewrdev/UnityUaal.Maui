@@ -472,3 +472,4 @@ crashlytics-build.properties
 
 # Ignore temporary exported Android gradle project used to create Unity aar
 /UnityApp_Exported.Android/
+/UnityApp/Temp/

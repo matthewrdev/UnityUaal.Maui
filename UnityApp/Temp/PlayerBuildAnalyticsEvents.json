@@ -3,12 +3,12 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "ad5bd63d1dae242ff89f324f4a3716cc",
-        "node_executed": false,
+        "build_event_id": "ffcc86d1dd0ef4e16a9ffd4f56f69a2f",
+        "node_executed": true,
         "attribute_total_count_eager_static_constructor": 9,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
-        "attribute_total_count_ignore_by_deep_profiler": 0,
+        "attribute_total_count_ignore_by_deep_profiler": 11,
         "extra_types_total_count": 0,
         "option_extra_types_file_count": 0,
         "option_jobs": 8,
@@ -42,29 +42,42 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "ad5bd63d1dae242ff89f324f4a3716cc",
-        "build_player": 1530,
-        "preprocess_player": 5,
-        "produce_player_script_assemblies": 614,
-        "build_scripts_dlls": 12,
-        "postprocess_built_player": 569,
-        "node_summary_table": []
+        "build_event_id": "ffcc86d1dd0ef4e16a9ffd4f56f69a2f",
+        "build_player": 14124,
+        "preprocess_player": 8,
+        "produce_player_script_assemblies": 2988,
+        "build_scripts_dlls": 13,
+        "postprocess_built_player": 5639,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 1506
+          },
+          {
+            "name": "il2cpp.exe",
+            "duration": 1567
+          },
+          {
+            "name": "UnityLinker.exe",
+            "duration": 2153
+          }
+        ]
       },
       "version": 1
     },
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "ad5bd63d1dae242ff89f324f4a3716cc",
-        "node_executed": false,
+        "build_event_id": "ffcc86d1dd0ef4e16a9ffd4f56f69a2f",
+        "node_executed": true,
         "attribute_marked_count_always_link_assembly": 0,
         "attribute_swept_count_always_link_assembly": 0,
         "attribute_total_count_always_link_assembly": 0,
         "attribute_marked_count_preserve": 15,
         "attribute_total_count_preserve": 15,
         "attribute_total_count_preserve_body": 0,
-        "attribute_marked_count_required_member": 0,
-        "attribute_swept_count_required_member": 14,
+        "attribute_marked_count_required_member": 4,
+        "attribute_swept_count_required_member": 10,
         "attribute_total_count_required_member": 14,
         "attribute_marked_count_require_derived": 0,
         "attribute_swept_count_require_derived": 0,
@@ -79,18 +92,18 @@
         "attribute_marked_count_dynamic_dependency": 11,
         "attribute_swept_count_dynamic_dependency": -11,
         "assembly_counts_total_in": 88,
-        "assembly_counts_link": 14,
+        "assembly_counts_link": 18,
         "assembly_counts_copy": 1,
-        "assembly_counts_delete": 73,
-        "assembly_counts_total_out": 15,
+        "assembly_counts_delete": 69,
+        "assembly_counts_total_out": 19,
         "unresolved_stubbing_total_count": 0,
         "unresolved_stubbing_missing_interface_method_count": 0,
         "unresolved_stubbing_missing_abstract_class_method_count": 0,
         "unresolved_stubbing_missing_type_count": 0,
         "unresolved_stubbing_missing_method_count": 0,
-        "unrecognized_reflection_access_total_count": 197,
+        "unrecognized_reflection_access_total_count": 198,
         "unrecognized_reflection_access_core_count": 155,
-        "unrecognized_reflection_access_unity_count": 42,
+        "unrecognized_reflection_access_unity_count": 43,
         "unrecognized_reflection_access_user_count": 0,
         "recognized_reflection_access_total_count": 41,
         "recognized_reflection_access_core_count": 29,
@@ -106,8 +119,8 @@
         "link_xml_assembly_preserve_all_core_count": 0,
         "link_xml_assembly_preserve_all_user_count": 0,
         "engine_module_total_in": 66,
-        "engine_module_deleted": 58,
-        "engine_module_total_out": 8,
+        "engine_module_deleted": 54,
+        "engine_module_total_out": 12,
         "option_rule_set": "Minimal",
         "option_enable_report": false,
         "option_enable_snapshot": false,

@@ -5,11 +5,12 @@ using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Com.Unity3d.Player;
+using UnityUaalMaui.Unity;
 
 namespace UnityUaalMaui;
 
 [Activity(Label = "UnityActivity", MainLauncher = false)]
-public class UnityActivity : Activity, IUnityPlayerLifecycleEvents
+public class UnityActivity : Activity, IUnityPlayerLifecycleEvents, INativeUnityBridge
 {
     private UnityPlayerForActivityOrService player;
 
@@ -22,6 +23,9 @@ public class UnityActivity : Activity, IUnityPlayerLifecycleEvents
         //UnityPlayer.UnitySendMessage()
 
         this.SetContentView(player.FrameLayout);
+
+        UnityUaalMaui.Unity.UnityBridge.RegisterNativeBridge(this);
+        Bridge.Instance.OnUnityContent("atest", "asdvaxd");
     }
 
 
@@ -69,6 +73,13 @@ public class UnityActivity : Activity, IUnityPlayerLifecycleEvents
         player.Resume();
     }
 
+    protected override void OnDestroy()
+    {
+        base.OnDestroy();
+
+        UnityUaalMaui.Unity.UnityBridge.RegisterNativeBridge(null);
+    }
+
     // TODO: Input events etc?
 
     public void OnUnityPlayerQuitted()
@@ -77,5 +88,12 @@ public class UnityActivity : Activity, IUnityPlayerLifecycleEvents
 
     public void OnUnityPlayerUnloaded()
     {
+    }
+
+    public void SendContent(string eventName, string eventContent)
+    {
+        var content = eventName + "|" + (eventContent ?? string.Empty);
+
+        UnityPlayer.UnitySendMessage("Bridge", "ReceiveContent", content);
     }
 }
