@@ -17,7 +17,12 @@ public class Bridge {
             return;
         }
         android.util.Log.i("Bridge", "Send to IUnityContentReceiver => onUnityContent(" + eventName + ", " + eventContent + ")");
-        
-        unityContentReceiver.onUnityContent(eventName, eventContent);
+               
+        try {
+            unityContentReceiver.receiveUnityContent(eventName, eventContent);
+        }
+        catch (Exception e) {
+            android.util.Log.e("Bridge", "onUnityContent error => " + e.getMessage());
+        }
     }
 }

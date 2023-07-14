@@ -44,7 +44,6 @@ public class Bridge : MonoBehaviour
         {
             Debug.Log("Send content error");
             Debug.Log(e.ToString());
-            // TODO: Exception handling?
         }
 #elif UNITY_IOS || UNITY_TVOS
         NativeAPI.onUnityContent(eventName, eventContent);
@@ -55,9 +54,9 @@ public class Bridge : MonoBehaviour
     {
         GUIStyle style = new GUIStyle("button");
         style.fontSize = 30;
-        if (GUI.Button(new Rect(10, 10, 200, 100), "Red", style)) SendContent("ButtonTap", "Red");
-        if (GUI.Button(new Rect(10, 110, 200, 100), "Blue", style)) SendContent("ButtonTap", "Red");
-        if (GUI.Button(new Rect(10, 300, 400, 100), "Show Main With Color", style)) SendContent("ButtonTap", "ShowMainWindow");
+        if (GUI.Button(new Rect(10, 10, 200, 100), "Red", style)) SendContent("ButtonTap", "Red!");
+        if (GUI.Button(new Rect(10, 110, 200, 100), "Blue", style)) SendContent("ButtonTap", "Blue!");
+        if (GUI.Button(new Rect(10, 300, 400, 100), "Return to .NET Window", style)) SendContent("FocusAppWindow", "FocusAppWindow");
 
     }
 }

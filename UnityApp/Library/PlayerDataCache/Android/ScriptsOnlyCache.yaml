@@ -2,8 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Bridge
+    - CamZoom
     - MouseOrbit
-    - NewBehaviourScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -47,9 +47,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18222}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 18922}
     - Class: 114
-      Script: {instanceID: 26992}
+      Script: {instanceID: 23644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -313,6 +313,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bridge
   - hash:
       serializedVersion: 2
       Hash: 0249933f35dcc970b31eaae0159aebf9
@@ -879,10 +885,10 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 0b10712f7503c96d2a613706ea48e603
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: NewBehaviourScript
+    className: CamZoom
   - hash:
       serializedVersion: 2
       Hash: afe1800287c9574079eab3fea2622416
@@ -919,12 +925,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Bridge
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

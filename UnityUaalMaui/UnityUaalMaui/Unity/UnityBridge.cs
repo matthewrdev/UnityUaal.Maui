@@ -28,19 +28,11 @@ namespace UnityUaalMaui.Unity
 		public static event EventHandler<UnityContentReceivedEventArgs> OnContentReceived;
 
 #if __ANDROID__
-        protected class UnityContentReceiver : Java.Lang.Object, Com.Unity3d.Player.IUnityContentReceiver
+        protected class UnityContentReceiver : Com.Unity3d.Player.BaseUnityContentReceiver
         {
-            public UnityContentReceiver()
+            protected override void OnReceivedUnityContent(string p0, string p1)
             {
-            }
-
-            public UnityContentReceiver(nint handle, Android.Runtime.JniHandleOwnership transfer) : base(handle, transfer)
-            {
-            }
-
-            public void OnUnityContent(string eventName, string eventContent)
-            {
-                OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(eventName, eventContent));
+                OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(p0, p1));
             }
         }
 #endif
