@@ -80,8 +80,10 @@ Creating the iOS binding project.
 ```
  
  Linking to binding project.
- Creating an activity (either usin
+ Creating an activity (either using the inbuilt unity launcher or through a custom activity) => Recomend custom binding, can copy the flags/settings 
  Launching this activity.
+
+ Removing the AAR unity activity fom the manifest
 
 ### iOS
 
@@ -92,7 +94,26 @@ Creating the iOS binding project.
 
 ## Communicating Between Unity and MAUI
 
-More than likely need to send data between.
+More than likely need to send data between MAUI and Unity. To do so we create a data bridge to send stringly typed content.
+
+ => Receving content from unity.
+
+### Android
+
+Implemneting the java bruidge and IContentReciever object/interface
+
+### iOS
+
+Implmenting IContentReceiver protocol.
+
+
+
+### Maui
+
+Implemnetingn receivers in MAUI
+
+
+=> Sending content to Unity.
 
  * Creating data sharing bridge in Unity
  * Implementing the data sharing bridge in Java via an Android Unity plugin
