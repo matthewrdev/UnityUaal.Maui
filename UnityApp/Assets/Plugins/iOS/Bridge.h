@@ -4,16 +4,16 @@
 #import <Foundation/Foundation.h>
 
 // Bridge defines protocol with methods you want to be called from managed
-@protocol Bridge
+@protocol IUnityContentReceiver
 @required
-- (void) onUnityContent:(NSString*)eventName:(NSString*)eventContent;
+- (void) receiveUnityContent:(NSString*)eventName:(NSString*)eventContent;
 // other methods
 @end
 
 __attribute__ ((visibility("default")))
-@interface FrameworkLibAPI : NSObject
-// call it any time after UnityFrameworkLoad to set object implementing Bridge methods
-+(void) registerBridge:(id<Bridge>) bridge;
+@interface Bridge : NSObject
+// call it any time after UnityFrameworkLoad to set object implementing the content receiver methods
++(void) registerUnityContentReceiver:(id<IUnityContentReceiver>) contentReceiver;
 
 @end
 

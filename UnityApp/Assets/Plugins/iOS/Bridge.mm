@@ -1,20 +1,20 @@
 #import <Foundation/Foundation.h>
-#import "NativeCallProxy.h"
+#import "Bridge.h"
 
 
-@implementation FrameworkLibAPI
+@implementation Bridge
 
-id<Bridge> mBridge = NULL;
-+(void) registerBridge:(id<Bridge>) bridge
+id<IContentReceiver> mContentReceiver = NULL;
++(void) registerUnityContentReceiver:(id<IContentReceiver>) contentReceiver
 {
-    mBridge = bridge;
+    mContentReceiver = contentReceiver;
 }
 
 @end
 
 extern "C" {
     void onUnityContent(const char* eventName, const char* eventContent) { 
-        return [mBridge onUnityContent:[NSString stringWithUTF8String:eventName]:[NSString stringWithUTF8String:eventContent]]; 
+        return [mContentReceiver receiveUnityContent:[NSString stringWithUTF8String:eventName]:[NSString stringWithUTF8String:eventContent]]; 
     }
 }
 
