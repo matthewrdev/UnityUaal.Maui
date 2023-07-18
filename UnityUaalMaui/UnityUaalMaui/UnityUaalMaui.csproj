@@ -58,7 +58,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" Include="..\AndroidBridge\AndroidBridge.csproj" />
-	  <ProjectReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" Include="..\iOSBridge\iOSBridge.csproj" />
+	  <!--<ProjectReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" Include="..\iOSBridge\iOSBridge.csproj" />-->
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Unity\" />

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityUaalMaui", "UnityUaalM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidBridge", "AndroidBridge\AndroidBridge.csproj", "{5039D987-1AE7-42EC-9E2E-B94FBEB93197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSBridge", "iOSBridge\iOSBridge.csproj", "{57FA115D-E349-431C-9657-1E9E7A75AE48}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{5039D987-1AE7-42EC-9E2E-B94FBEB93197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5039D987-1AE7-42EC-9E2E-B94FBEB93197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5039D987-1AE7-42EC-9E2E-B94FBEB93197}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57FA115D-E349-431C-9657-1E9E7A75AE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57FA115D-E349-431C-9657-1E9E7A75AE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57FA115D-E349-431C-9657-1E9E7A75AE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57FA115D-E349-431C-9657-1E9E7A75AE48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

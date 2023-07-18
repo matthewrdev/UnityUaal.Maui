@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.companyname.unityuaalmaui" android:versionCode="1" android:versionName="1.0">
-	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="UnityUaalMaui">
-		<activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density" android:enabled="true" android:exported="true" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerActivity" android:resizeableActivity="false" android:screenOrientation="fullUser" android:theme="@style/UnityThemeSelector">
+	<application android:largeHeap="true" android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="UnityUaalMaui">
+		<activity android:name="com.unity3d.player.UnityPlayerActivity">
 			<intent-filter>
 				<category tools:node="remove" android:name="android.intent.category.LAUNCHER" />
 				<action tools:node="remove" android:name="android.intent.action.MAIN" />

@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="UnityFramework.framework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
   </ItemGroup>
 </Project>

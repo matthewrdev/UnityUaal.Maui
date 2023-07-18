@@ -44,7 +44,7 @@ public partial class MainPage : ContentPage
     {
 #if __ANDROID__
         var intent = new Android.Content.Intent(Microsoft.Maui.ApplicationModel.Platform.CurrentActivity, typeof(UnityActivity));
-        intent.AddFlags(Android.Content.ActivityFlags.ReorderToFront | Android.Content.ActivityFlags.SingleTop);
+        intent.AddFlags(Android.Content.ActivityFlags.ReorderToFront);
 
         Microsoft.Maui.ApplicationModel.Platform.CurrentActivity.StartActivity(intent);
 #endif
@@ -56,7 +56,7 @@ public partial class MainPage : ContentPage
 
     public void sendContentButton_Clicked(object sender, EventArgs e)
     {
-        
+        Unity.UnityBridge.SendContent("SendContent", this.textContent.Text);
     }
 
 }

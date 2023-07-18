@@ -4,8 +4,8 @@
 
 @implementation Bridge
 
-id<IContentReceiver> mContentReceiver = NULL;
-+(void) registerUnityContentReceiver:(id<IContentReceiver>) contentReceiver
+id<IUnityContentReceiver> mContentReceiver = NULL;
++(void) registerUnityContentReceiver:(id<IUnityContentReceiver>) contentReceiver
 {
     mContentReceiver = contentReceiver;
 }

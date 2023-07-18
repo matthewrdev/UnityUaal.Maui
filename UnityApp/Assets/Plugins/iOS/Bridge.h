@@ -6,7 +6,8 @@
 // Bridge defines protocol with methods you want to be called from managed
 @protocol IUnityContentReceiver
 @required
-- (void) receiveUnityContent:(NSString*)eventName:(NSString*)eventContent;
+- (void) receiveUnityContent:(NSString*)eventName
+                            :(NSString*)eventContent;
 // other methods
 @end
 
