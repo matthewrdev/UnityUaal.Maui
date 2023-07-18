@@ -3,7 +3,39 @@ Embedding the Unity game engine into .NET MAUI.
 
 What is Unity? What is UAAL? What is MAUI?
 
+This tutorial builds on the 
+See also: https://github.com/Unity-Technologies/uaal-example
+
+Requires:
+
+ * Unity (using 23.01.0a20)
+ * Xcode
+ * Android Studio
+ * Visual Studio Mac with MAUI workloads installed
+
+Additionally, assumes familarity, or at least exposure to:
+
+ * Native platform development using either Xcode or Android Studio.
+ * .NET development using the Visual Studio family.
+ * 
 ## Why?
+
+To begin, lets compare the strengths and weakness of app development using Unity vs the "native" way:
+
+**Unity**
+| Pro  |  Con |
+|---|---|
+| Fully fledged 3D engine  |  Cannot  |
+| Simplified augmented and virtual reality  | In-direct access to native platform features (requires plugin)  |
+|   | Bespoke UI frameworks  |
+
+
+**Native Platforms (iOS/Android)**
+| Pro  |  Con |
+|---|---|
+| Fully fledged 3D engine  |   |
+| Simplified augmented and virtual reality  | In-direct access to native platform features (requires plugin)  |
+|   | Bespoke UI frameworks  |
 
 Using 3D techs in MAUI would require writing engine from scratch.
 
@@ -22,7 +54,7 @@ Unity has limitations so using MAUI is useful:
 Therefore combining these two techs means we can get the best of both worlds:
 
  * One of the industry leaders in games/3D techs.
- * Fully x-plat code base in a native app. No restrictions!
+ * Fully x-plat code base in a native app. A fully native UI with no restrictions!
  * .NET across the whole stack.
 
 ## Creating Unity Project
@@ -33,10 +65,12 @@ Sample is a ground plane with a few pieces of geometry + camera controls
 
 ## Exporting Unity Project
 
- * Outline how to configure the unity project export (Android, iOS => IL2CPP + require runtimes)
+ * Outline how to configure the Unity project export (Android, iOS => IL2CPP + require runtimes)
  * Android => Export project tick box then click export
 
 ## Building Platform Binaries
+
+After we've generated the platform specific projects, the next step is to create the binary artificats (`aar` for Android, `framework` for iOS) that we will reference in our MAUI app.
 
 ### Android
 
@@ -54,21 +88,30 @@ Where to find
 
 ## Binding Platform Binaries
 
+Now that our platform binaries have been built, lets create the platform specific .NET projects that will be utilised in the MAUI app.
+
 ### Android
 
-Creating the Java binding project.
-
- * 
+Creating the Java binding project in VS Mac.
+Drag and drop the unity aar into Jars folder.
+Done! (.NET auto-generates the interop code, usually we don't need to do anyuthing further
 
 ### iOS
 
 Creating the iOS binding project.
+Drag and drop the framework into project.
 
-## Integrating Into MAUI
+Using ObjectiveSharpie to create our platform interop code.
+
+## Launching the Unity Runtime
+
+How do we launch the Unity runtime?
+
+### MAUI Wrapper Code
 
 ### Android
 
- Adding the required resources for Unity:
+Adding the required resources for Unity:
  
 **strings.xml**
 ```
@@ -84,6 +127,8 @@ Creating the iOS binding project.
  Launching this activity.
 
  Removing the AAR unity activity fom the manifest
+
+
 
 ### iOS
 
@@ -125,6 +170,11 @@ Implemnetingn receivers in MAUI
  * Sending data via Maui to Unity
 
  * Returning back to the .NET app
+
+## Known Issues + Limitations
+
+ * Sometimes can crash on Android when *receivinb* data from Unity when debugger attached. Does not happen in non-debugging builds.
+ * Somestimes launchign unity engine can freeze app on Android. No known cause or solution yet, still investigating
 
 
 
