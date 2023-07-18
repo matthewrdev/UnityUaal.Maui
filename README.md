@@ -63,6 +63,8 @@ Therefore combining these two techs means we can get the best of both worlds:
 
 Sample is a ground plane with a few pieces of geometry + camera controls
 
+## Data Bridge 
+
 ## Exporting Unity Project
 
  * Outline how to configure the Unity project export (Android, iOS => IL2CPP + require runtimes)
@@ -84,7 +86,7 @@ Where to find the artifact created?
 
 Building the iOS framework using the generated xcode project.
 
-Where to find
+ * Exposing the 
 
 ## Binding Platform Binaries
 
@@ -174,9 +176,7 @@ Implemnetingn receivers in MAUI
 ## Known Issues + Limitations
 
  * Sometimes can crash on Android when *receivinb* data from Unity when debugger attached. Does not happen in non-debugging builds.
- * Somestimes launchign unity engine can freeze app on Android. No known cause or solution yet, still investigating
-
-
+ * Somestimes launchign unity engine can freeze app on Android. No known cause or solution yet, still investigating. 
 
 ## Summary
 
