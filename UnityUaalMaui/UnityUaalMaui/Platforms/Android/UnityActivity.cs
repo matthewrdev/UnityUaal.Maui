@@ -32,7 +32,7 @@ public class UnityActivity : Activity,
 
     protected override void OnCreate(Bundle savedInstanceState)
     {
-        //RequestWindowFeature(WindowFeatures.NoTitle);
+        RequestWindowFeature(WindowFeatures.NoTitle);
 
         base.OnCreate(savedInstanceState);
         player = new UnityPlayerForActivityOrService(this, this);

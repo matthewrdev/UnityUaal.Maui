@@ -2,6 +2,8 @@
 using System;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
+using iOSBridge;
+using UnityUaalMaui.Unity;
 
 namespace UnityUaalMaui;
 
@@ -27,36 +29,19 @@ public partial class MainPage : ContentPage
         switch (e.EventName)
         {
             case Unity.UnityEvents.FocusAppWindow:
-#if __ANDROID__
-                var intent = new Android.Content.Intent(Microsoft.Maui.ApplicationModel.Platform.CurrentActivity, typeof(MainActivity));
-                intent.AddFlags(Android.Content.ActivityFlags.ReorderToFront | Android.Content.ActivityFlags.SingleTop);
-
-                Microsoft.Maui.ApplicationModel.Platform.CurrentActivity.StartActivity(intent);
-#endif
-
-#if __IOS__
-#endif
+                UnityBridge.ShowMainWindow();
                 break;
         }
     }
 
     void openUnityButton_Clicked(System.Object sender, System.EventArgs e)
     {
-#if __ANDROID__
-        var intent = new Android.Content.Intent(Microsoft.Maui.ApplicationModel.Platform.CurrentActivity, typeof(UnityActivity));
-        intent.AddFlags(Android.Content.ActivityFlags.ReorderToFront);
-
-        Microsoft.Maui.ApplicationModel.Platform.CurrentActivity.StartActivity(intent);
-#endif
-
-#if __IOS__
-		// TODO: Start the Unity ViewController here.
-#endif
+        UnityBridge.ShowUnityWindow();
     }
 
     public void sendContentButton_Clicked(object sender, EventArgs e)
     {
-        Unity.UnityBridge.SendContent("SendContent", this.textContent.Text);
+        UnityBridge.SendContent("SendContent", this.textContent.Text);
     }
 
 }

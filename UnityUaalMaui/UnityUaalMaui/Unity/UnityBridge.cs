@@ -1,15 +1,42 @@
 ﻿using System;
+#if __IOS__
+using iOSBridge;
+#endif
 
 namespace UnityUaalMaui.Unity
 {
-    public static class UnityBridge
+    public static partial class UnityBridge
     {
         public static void Init()
         {
 #if __ANDROID__
             Com.Unity3d.Player.Bridge.Instance.RegisterUnityContentReceiver(new UnityContentReceiver()); // TODO: GC cleanup/deregistering of this receiver?
 #endif
+
+#if __IOS__
+
+            var bundlePath = Foundation.NSBundle.MainBundle.BundlePath;
+            bundlePath += "/Frameworks/UnityFramework.framework";
+
+            var bundle = Foundation.NSBundle.FromPath(bundlePath);
+            if (bundle.IsLoaded == false)
+            {
+                bundle.Load();
+            }
+
+            var frameowrk = UnityFramework.GetInstance();
+            if (frameowrk == null)
+            {
+                // TODO: Log that startup failed!
+            }
+            else
+            {
+                var controller = frameowrk.AppController();
+            }
+
+#endif
         }
+
 
         private static WeakReference<INativeUnityBridge> nativeBridgeReference;
 
@@ -37,8 +64,26 @@ namespace UnityUaalMaui.Unity
         }
 #endif
 
-#if __IOS__
-#endif
+//        protected class UnityContentReceiver
+//#if __ANDROID__
+//            : Com.Unity3d.Player.BaseUnityContentReceiver
+//#endif
+//#if __IOS__
+//            : iOSBridge.UnityContentReceiver
+//#endif
+//        {
+
+//            public override void ReceiveUnityContent(string eventName, string eventContent)
+//            {
+//                OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(eventName, eventContent));
+//            }
+
+//            // TODO: Align the method names here between droid/ios.
+//            //protected override void OnReceivedUnityContent(string p0, string p1)
+//            //{
+//            //    OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(p0, p1));
+//            //}
+//        }
 
         public static void SendContent(string eventName, string eventContent)
         {

@@ -8,11 +8,14 @@
 
   <ItemGroup>
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+    <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="UnityFramework.framework">
+    <NativeReference Include="..\lib\UnityFramework.framework">
       <Kind>Framework</Kind>
-      <Frameworks>Foundation UIKit</Frameworks>
     </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ApiDefinitions.cs" />
   </ItemGroup>
 </Project>

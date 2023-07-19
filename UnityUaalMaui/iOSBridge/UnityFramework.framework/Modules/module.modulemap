@@ -1,6 +1,0 @@
-framework module UnityFramework {
-  umbrella header "UnityFramework.h"
-
-  export *
-  module * { export * }
-}

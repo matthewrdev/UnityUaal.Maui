@@ -1,10 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
-		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
-		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
+		<!--<TargetFrameworks>net7.0-android;net7.0-ios</TargetFrameworks>-->
+		<TargetFrameworks>net7.0-ios</TargetFrameworks>
 		<OutputType>Exe</OutputType>
 		<RootNamespace>UnityUaalMaui</RootNamespace>
 		<UseMaui>true</UseMaui>
@@ -33,6 +31,9 @@
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -56,14 +57,99 @@
 		<PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" Include="..\AndroidBridge\AndroidBridge.csproj" />
-	  <!--<ProjectReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" Include="..\iOSBridge\iOSBridge.csproj" />-->
-	</ItemGroup>
+<!--	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
+	  <ProjectReference Include="..\iOSBridge\iOSBridge.csproj" />
+	</ItemGroup>-->
+	
+	<!--<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+	  <ProjectReference Include="..\AndroidBridge\AndroidBridge.csproj" />
+	</ItemGroup>-->
+
 	<ItemGroup>
 	  <None Remove="Unity\" />
+	  <None Remove="Data\boot.config" />
+	  <None Remove="Data\globalgamemanagers" />
+	  <None Remove="Data\globalgamemanagers.assets" />
+	  <None Remove="Data\globalgamemanagers.assets.resS" />
+	  <None Remove="Data\level0" />
+	  <None Remove="Data\level0.resS" />
+	  <None Remove="Data\Managed\Metadata\global-metadata.dat" />
+	  <None Remove="Data\Managed\mono\4.0\machine.config" />
+	  <None Remove="Data\Managed\Resources\mscorlib.dll-resources.dat" />
+	  <None Remove="Data\Raw\UnityServicesProjectConfiguration.json" />
+	  <None Remove="Data\Resources\unity_builtin_extra" />
+	  <None Remove="Data\RuntimeInitializeOnLoads.json" />
+	  <None Remove="Data\ScriptingAssemblies.json" />
+	  <None Remove="Data\sharedassets0.assets" />
+	  <None Remove="Data\unity default resources" />
+	  <None Remove="Data\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Unity\" />
+	  <Folder Include="Data\" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="iOSBridge">
+	    <HintPath>..\iOSBridge\bin\Release\net7.0-ios\iOSBridge.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+<!--
+	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
+		<CollectBundleResourcesDependsOn>$(CollectBundleResourcesDependsOn);BundleUnityData</CollectBundleResourcesDependsOn>
+	</PropertyGroup>
+
+
+	<Target Name="BundleUnityData" BeforeTargets="PrepareForBuild">
+		<ItemGroup>
+			<BundleResource Include="Platforms\iOS\Data\*.*" />
+		</ItemGroup>
+	</Target>-->
+	
+	<!--<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
+	  <BundleResource Include="Data\boot.config">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\globalgamemanagers">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\globalgamemanagers.assets">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\globalgamemanagers.assets.resS">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\level0">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\level0.resS">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\Managed\Metadata\global-metadata.dat">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\Managed\mono\4.0\machine.config">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\Managed\Resources\mscorlib.dll-resources.dat">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\Raw\UnityServicesProjectConfiguration.json">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\Resources\unity_builtin_extra">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\RuntimeInitializeOnLoads.json">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\ScriptingAssemblies.json">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\sharedassets0.assets">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	  <BundleResource Include="Data\unity default resources">
+	    <IsDefaultItem>true</IsDefaultItem>
+	  </BundleResource>
+	</ItemGroup>-->
 </Project>
