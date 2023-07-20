@@ -10,16 +10,16 @@ public class Bridge {
         unityContentReceiver = receiver;
     }
 
-    public void onUnityContent(String eventName, String eventContent) {
+    public void onUnityContent(String content) {
         if (unityContentReceiver == null) {
 
             android.util.Log.i("Bridge", "onUnityContent => No registered IUnityContentReceiver");
             return;
         }
-        android.util.Log.i("Bridge", "Send to IUnityContentReceiver => onUnityContent(" + eventName + ", " + eventContent + ")");
+        android.util.Log.i("Bridge", "Send to IUnityContentReceiver => onUnityContent(" + content + ")");
                
         try {
-            unityContentReceiver.receiveUnityContent(eventName, eventContent);
+            unityContentReceiver.receiveUnityContent(content);
         }
         catch (Exception e) {
             android.util.Log.e("Bridge", "onUnityContent error => " + e.getMessage());

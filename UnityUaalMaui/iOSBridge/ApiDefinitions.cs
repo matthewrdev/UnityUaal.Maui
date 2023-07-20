@@ -6,9 +6,6 @@ using UIKit;
 
 namespace iOSBridge
 {
-    // NOTE:
-    // We create a dummy I<DelegateName> here so we can reference it from the
-    // delegate property and other members.
     interface IUnityContentReceiver { }
 
     [BaseType(typeof(NSObject))]
@@ -16,11 +13,10 @@ namespace iOSBridge
     [Protocol]
     interface UnityContentReceiver 
     {
-        [Export("receiveUnityContent:")]
-        void ReceiveUnityContent ([PlainString] string eventName, [PlainString] string eventContent);
+        [Export("onReceivedUnityContent:")]
+        void OnReceiveUnityContent ([PlainString] string content);
 	}
 
-    // @interface Bridge : NSObject
     [BaseType(typeof(NSObject))]
     interface Bridge
     {
@@ -41,9 +37,6 @@ namespace iOSBridge
         UIViewController RootViewController { get; }
     }
 
-    // NOTE:
-    // We create a dummy I<DelegateName> here so we can reference it from the
-    // delegate property and other members.
     interface IUnityFrameworkListener { }
 
     [BaseType(typeof(NSObject))]
@@ -88,15 +81,9 @@ namespace iOSBridge
         [Export("quitApplication:")]
         void QuitApplication(int exitCode);
 
-        // NOTE:
-        // This method uses the dummy interface because it accepts a protocol
-        // and not a concrete type.
         [Export("registerFrameworkListener:")]
         void RegisterFrameworkListener(IUnityFrameworkListener obj);
 
-        // NOTE:
-        // This method uses the dummy interface because it accepts a protocol
-        // and not a concrete type.
         [Export("unregisterFrameworkListener:")]
         void UnregisterFrameworkListener(IUnityFrameworkListener obj);
 

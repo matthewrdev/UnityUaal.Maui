@@ -33,7 +33,6 @@ namespace UnityUaalMaui.Unity
             {
                 var controller = frameowrk.AppController();
             }
-
 #endif
         }
 
@@ -53,37 +52,6 @@ namespace UnityUaalMaui.Unity
         }
 
 		public static event EventHandler<UnityContentReceivedEventArgs> OnContentReceived;
-
-#if __ANDROID__
-        protected class UnityContentReceiver : Com.Unity3d.Player.BaseUnityContentReceiver
-        {
-            protected override void OnReceivedUnityContent(string p0, string p1)
-            {
-                OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(p0, p1));
-            }
-        }
-#endif
-
-//        protected class UnityContentReceiver
-//#if __ANDROID__
-//            : Com.Unity3d.Player.BaseUnityContentReceiver
-//#endif
-//#if __IOS__
-//            : iOSBridge.UnityContentReceiver
-//#endif
-//        {
-
-//            public override void ReceiveUnityContent(string eventName, string eventContent)
-//            {
-//                OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(eventName, eventContent));
-//            }
-
-//            // TODO: Align the method names here between droid/ios.
-//            //protected override void OnReceivedUnityContent(string p0, string p1)
-//            //{
-//            //    OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(p0, p1));
-//            //}
-//        }
 
         public static void SendContent(string eventName, string eventContent)
         {

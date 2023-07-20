@@ -28,7 +28,7 @@ public partial class MainPage : ContentPage
 
         switch (e.EventName)
         {
-            case Unity.UnityEvents.FocusAppWindow:
+            case Unity.UnityEvents.ShowMainWindow:
                 UnityBridge.ShowMainWindow();
                 break;
         }

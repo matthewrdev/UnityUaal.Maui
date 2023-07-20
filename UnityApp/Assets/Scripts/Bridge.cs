@@ -6,21 +6,23 @@ using UnityEngine.UI;
 using UnityEngine;
 
 #if UNITY_IOS || UNITY_TVOS
-public class NativeAPI {
+public class NativeBridge {
     [DllImport("__Internal")]
-    public static extern void onUnityContent(string eventName, string eventContent);
+    public static extern void onUnityContent(string content);
 }
 #endif
 
 public class Bridge : MonoBehaviour
 {
+    public const string eventContentDeliminator = "|";
+
     void Update()
     {
     }
 
     public void ReceiveContent(string content)
     {
-        string[] splitContent = content.Split("|");
+        string[] splitContent = content.Split(eventContentDeliminator);
         string eventName = splitContent[0];
         string eventContent = "";
         if (splitContent.Length > 0)
@@ -33,20 +35,28 @@ public class Bridge : MonoBehaviour
     
     public void SendContent(string eventName, string eventContent)
     {
-        Debug.Log("Send content request: " + eventName + "|" + eventContent);
+        if (string.IsNullOrWhiteSpace(eventName))
+        {
+            throw new ArgumentException($"'{nameof(eventName)}' cannot be null or whitespace.", nameof(eventName));
+        }
+
+        eventContent = eventContent == null ? "" : eventContent;
+
+        var concatenatedContent = eventName + eventContentDeliminator + eventContent;
+        Debug.Log("Send content request: '" + concatenatedContent + "'");
 #if UNITY_ANDROID
         try
         {
             AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.Bridge");
             AndroidJavaObject bridgeInstance = jc.GetStatic<AndroidJavaObject>("instance");
-            bridgeInstance.Call("onUnityContent", eventName, eventContent);
+            bridgeInstance.Call("onUnityContent", concatenatedContent);
         } catch(Exception e)
         {
             Debug.Log("Send content error");
             Debug.Log(e.ToString());
         }
-#elif UNITY_IOS || UNITY_TVOS
-        NativeAPI.onUnityContent(eventName, eventContent);
+#elif UNITY_IOS
+        NativeBridge.onUnityContent(concatenatedContent);
 #endif
     }
 
@@ -56,7 +66,7 @@ public class Bridge : MonoBehaviour
         style.fontSize = 30;
         if (GUI.Button(new Rect(10, 10, 200, 100), "Red", style)) SendContent("ButtonTap", "Red!");
         if (GUI.Button(new Rect(10, 110, 200, 100), "Blue", style)) SendContent("ButtonTap", "Blue!");
-        if (GUI.Button(new Rect(10, 300, 400, 100), "Return to .NET Window", style)) SendContent("FocusAppWindow", "FocusAppWindow");
+        if (GUI.Button(new Rect(10, 300, 400, 100), "Show Main Window", style)) SendContent("ShowMainWindow", "ShowMainWindow");
 
     }
 }

@@ -29,13 +29,15 @@ namespace UnityUaalMaui.Unity
             }
         }
 
-        // TODO: This has some issues when compiling? Maybe concat it to just "content" and split by a pipe for event/event name?
-        //public class UnityBridge_UnityContentReceiver : UnityContentReceiver
-        //{
-        //    public override void ReceiveUnityContent(string eventName, string eventContent)
-        //    {
-        //    }
-        //}
+        public class UnityBridge_UnityContentReceiver : UnityContentReceiver
+        {
+            public override void OnReceiveUnityContent(string content)
+            {
+                var eventValues = content.Split("|");
+
+                OnContentReceived?.Invoke(this, new UnityContentReceivedEventArgs(eventValues[0], eventValues.Length > 1 ? eventValues[1] : string.Empty));
+            }
+        }
 
         public const string UnityFrameworkPath = "/Frameworks/UnityFramework.framework";
 
@@ -45,7 +47,9 @@ namespace UnityUaalMaui.Unity
 
         public static void ShowMainWindow()
         {
+            var appDelegate = MauiUIApplicationDelegate.Current;
 
+            appDelegate.Window.MakeKeyAndVisible();
         }
 
         public static void ShowUnityWindow()
@@ -71,6 +75,9 @@ namespace UnityUaalMaui.Unity
             }
 
             framework = UnityFramework.LoadUnity();
+
+            framework.RegisterFrameworkListener(new UnityBridge_UnityFrameworkListener());
+            Bridge.RegisterUnityContentReceiver(new UnityBridge_UnityContentReceiver());
 
             framework.RunEmbedded();
         }

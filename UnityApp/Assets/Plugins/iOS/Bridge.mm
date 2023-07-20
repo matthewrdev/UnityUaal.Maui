@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "Bridge.h"
 
-
 @implementation Bridge
 
 id<UnityContentReceiver> mContentReceiver = NULL;
@@ -13,8 +12,8 @@ id<UnityContentReceiver> mContentReceiver = NULL;
 @end
 
 extern "C" {
-    void onUnityContent(const char* eventName, const char* eventContent) { 
-        return [mContentReceiver receiveUnityContent:[NSString stringWithUTF8String:eventName]:[NSString stringWithUTF8String:eventContent]]; 
+    void onUnityContent(const char* content) {
+        return [mContentReceiver onReceivedUnityContent:[NSString stringWithUTF8String:content]];
     }
 }
 
