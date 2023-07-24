@@ -1,10 +1,7 @@
 # UnityUaal.Maui
-Embedding the Unity game engine into .NET MAUI.
+This code sample demonstrates how to embed [Unity](https://unity.com) into [.NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui).
 
-What is Unity? What is UAAL? What is MAUI?
-
-This tutorial builds on the 
-See also: https://github.com/Unity-Technologies/uaal-example
+See: https://github.com/Unity-Technologies/uaal-example
 
 Requires:
 
@@ -17,10 +14,11 @@ Additionally, assumes familarity, or at least exposure to:
 
  * Native platform development using either Xcode or Android Studio.
  * .NET development using the Visual Studio family.
- * 
+ * Unity development.
+
 ## Why?
 
-To begin, lets compare the strengths and weakness of app development using Unity vs the MAUI way:
+Lets compare the strengths and weakness of app development using Unity vs .NET MAUI:
 
 **Unity**
 | Pro  |  Con |
@@ -41,9 +39,9 @@ To begin, lets compare the strengths and weakness of app development using Unity
 | Rich ecosystem of packages (nuget.org) |  |
 | "Simple" binding and consumption of native libraries |  |
 
-It's clear that while Unity is an incredible platform to build a 3D experience in, its not a good choice for a modern, native app. We can use it to dramatically simplify the creation augmented or virtual reality experiences, manipulate and render a complex 3D environment however it's UI frameworks are a little limited as are its access to 3rd party vendors.
+While Unity is an incredible platform to build a 3D experience in, its not a good choice for a modern, native apps. We can use Unity to simplify building augmented or virtual reality experiences, manipulate and render a complex 3D environment however it's UI frameworks are limited as are its access to 3rd party vendors.
 
-On the other side, we can use MAUI to create a fully native application for both iOS and Android and access the full .NET ecosystem, utilising the latest language features and a large libary of NuGet packages. However creating a 3d experience in MAUI requires writing a 3d rendering pipeline from near scratch... and this is not an easy task!
+On the other side, MAUI can create fully native iOS and Android apps. We gain access to the full .NET ecosystem, utilising the latest language features and a large libary of NuGet packages. However creating a 3d experience in MAUI requires writing a 3d rendering pipeline from near scratch... and this is not an easy task!
 
 Therefore, by combining these two technologies, we can get the best of both worlds:
 
@@ -55,11 +53,15 @@ Let's get cracking into combining these two!
 
 ## Creating Unity Project
 
+
+
  * Outline steps to create a new unity project -> Link to sample included here
 
 Sample is a ground plane with a few pieces of geometry + camera controls + a GameObject with the Bridge.cs script attached (we will use this to talk abetween the app engines)
 
 ### Data Bridge Scaffolding
+
+
 
 Before continuing into the export and build stages of the embedding, lets define the data bridge we will use to "talk" between Unity and MAUI.
 
