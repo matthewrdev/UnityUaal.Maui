@@ -1,6 +1,8 @@
 # UnityUaal.Maui
 This code sample demonstrates how to embed [Unity](https://unity.com) into [.NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui).
 
+![Example of embedding Unity into a .NET MAUI app](/img/unity-maui-embedding.gif)
+
 See: https://github.com/Unity-Technologies/uaal-example
 
 Requires:
@@ -433,8 +435,8 @@ public static void ShowUnityWindow()
 
 To send and receive content from Unity, please review the platform specific implementations of the UnityBridge:
 
- * [UnityBridge.Android.cs](UnityUaalMaui/UnityUaalMaui/UnityBridge.Android.cs)
- * [UnityBridge.iOS.cs](UnityUaalMaui/UnityUaalMaui/UnityBridge.iOS.cs)
+ * [UnityBridge.Android.cs](UnityUaalMaui/UnityUaalMaui/Unity/UnityBridge.Android.cs)
+ * [UnityBridge.iOS.cs](UnityUaalMaui/UnityUaalMaui/Unity/UnityBridge.iOS.cs)
 
 ## Known Issues + Limitations
 
