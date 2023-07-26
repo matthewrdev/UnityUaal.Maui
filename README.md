@@ -15,8 +15,15 @@ Additionally, assumes familarity, or at least exposure to:
  * Native platform development using either Xcode or Android Studio.
  * .NET development using the Visual Studio family.
  * Unity development.
+   
+If you want assistance in doing the Unity => MAUI integration, please reach out via:
 
-## Why?
+ * Email: matthew@mfractor.com
+ * LinkedIn: https://www.linkedin.com/in/matthewrdev/
+
+My time is somewhat limited but I'll provide assistance where I can.
+
+## Why Embedd Unity Into MAUI?
 
 Lets compare the strengths and weakness of app development using Unity vs .NET MAUI:
 
@@ -39,77 +46,64 @@ Lets compare the strengths and weakness of app development using Unity vs .NET M
 | Rich ecosystem of packages (nuget.org) |  |
 | "Simple" binding and consumption of native libraries |  |
 
-While Unity is an incredible platform to build a 3D experience in, its not a good choice for a modern, native apps. We can use Unity to simplify building augmented or virtual reality experiences, manipulate and render a complex 3D environment however it's UI frameworks are limited as are its access to 3rd party vendors.
+While Unity is an incredible platform to create 3D experiences, it is not a good choice for a modern, native apps. Unity to simplifies building augmented or virtual reality experiences, and gives us a full engine for rendering 3D environments however it's UI frameworks are limited as are its access to 3rd party vendors.
 
 On the other side, MAUI can create fully native iOS and Android apps. We gain access to the full .NET ecosystem, utilising the latest language features and a large libary of NuGet packages. However creating a 3d experience in MAUI requires writing a 3d rendering pipeline from near scratch... and this is not an easy task!
 
 Therefore, by combining these two technologies, we can get the best of both worlds:
 
- * One of the industry leaders in games/3D techs.
+ * Use an industry leader in games/3D technologies.
  * Fully x-plat code base in a native app. A fully native UI with no restrictions!
  * .NET across the whole stack.
 
-Let's get cracking into combining these two!
+## Integrating Unity Into MAUI
 
-## Creating Unity Project
+This section briefly outlines the 
 
+### Unity Project Overview
 
+The [Unity Project](/UnityApp) contains the following:
 
- * Outline steps to create a new unity project -> Link to sample included here
+ * A single scene with some geometry.
+ * A [script for controlling the camera via touch gestures](/UnityApp/Assets/Scripts/CameraZoom.cs).
+ * A [script that defines APIs for sharing data from Unity to MAUI via the data bridge](/UnityApp/Assets/Scripts/Bridge.cs).
+ * Native plugins for [iOS](/UnityApp/Assets/Plugins/iOS) and [Android](/UnityApp/Assets/Plugins/Android) that define APIs for sharing data from MAUI to Unity via the data bridge.
 
-Sample is a ground plane with a few pieces of geometry + camera controls + a GameObject with the Bridge.cs script attached (we will use this to talk abetween the app engines)
+### Exporting Platform Projects
 
-### Data Bridge Scaffolding
+When building a Unity app for Android and iOS, it exports itself as an Android gradle project and Xcode project.
 
+Each of these projects contains two parts:
 
+ * The Unity app encapsulated into a standalone library.
+ * The native "shim" project that references the Unity app library and starts it.
 
-Before continuing into the export and build stages of the embedding, lets define the data bridge we will use to "talk" between Unity and MAUI.
+Please follow the instructions in the Unity As A Library for [iOS](https://github.com/Unity-Technologies/uaal-example/blob/master/docs/ios.md) and [Android](https://github.com/Unity-Technologies/uaal-example/blob/master/docs/android.md) to create the native projects.
 
-We are defining this now as we want this code to be included into our unity exports so we don't need to redo the following steps again 😅
+### Building Native Frameworks
 
-#### Unity
+Once you have exported the native projects for iOS and Android, you will need to build the `framework` (iOS) and `aar` (Android) that will be consumed in .NET.
 
-TODO: Bridge.cs that has send content and receive content.
-We will talk about 
+**Android**
+To create the Android aar:
 
-#### Android
+ * Open the generated gradle project in Android Studio.
+ * Change the build type to `Release` by selecting **Build** => **Select Build Variant** and changing the **:unityLibrary** configuration to **Release**
+ * Select **Build** => **Make Project**
 
-Plugins => bridge + UnityContentReceiver interface.
+The created `aar` will be found under `[Exported Unity App Android Folder]/unityLibrary/build/outputs/aar/unityLibrary-release.aar`.
 
-#### iOS
+Please note that you may need to install several additional components for Android Studio such as the NDK and cmake.
 
-Plugins => Bridge.h and Bridge.mm to define Bridge + UnityContentReceiver.
+**iOS**
+To create the iOS framework:
 
-## Exporting Unity Project
+ * Open the generated project in XCode.
+ * Change the build type to `Release` by selecting **Product** => **Scheme** => **Edit Scheme** and then selecting the **Unity Framework** item from the title of the window, then changing build configuration to **Release**.
+ * Ensuring that the `Data` folder is included into the framework (click on item and set to public)
+ * Ensuring that the Bridge.h is included and can accessed by our iOS binding (click on item and set to public).
 
- * Outline how to configure the Unity project export (Android, iOS => IL2CPP + require runtimes)
- * Android => Export project tick box then click export
- * iOS => Click build and then choose an output folder
-
-## Building Platform Binaries
-
-After we've generated the platform specific projects, the next step is to create the binary artificats (`aar` for Android, `framework` for iOS) that we will reference in our MAUI app.
-
-### Android
-
-Building the Android aar using the generated gradle file.
-
- * Open in Android Studio
- * Switch to release mode
- * Build
-
-Where to find the artifact created?
-
-### iOS
-
-Building the iOS framework using the generated xcode project.
-
- * Open in XCode
- * Ensuring that the Data folder is included into the framework (click on item and set to public)
- * Ensuring that the Bridge.h is included and can accessed by our iOS binding (click on item and set to public)
-
-Credit for the following modificaitons to:
- https://github.com/FlorianAuer/Unity_as_a_Library-Xamarin-example/tree/master/UnityProject/buildiOS_modifications
+Make the following modifications to the main.mm and UnityFramework.h file:
 
  **Additions to Classes\main.mm**
 ````
@@ -210,28 +204,34 @@ Replace the `unloadApplication` implementation generated by Unity with the one a
 - (void)runEmbedded;
 ```
 
-  => TODO: Embed these suggested changes into this repo so they are not lost in case that repo is killed!
+These changes make it much simpler for Unity to run in embedded mode in our MAUI app.
 
-Change build scheme to Framework and Release.
-Build.
-Open in finder, Build -> Products -> iphone release
-Copy this out into a shared lib folder.
+[Credit](https://github.com/FlorianAuer/Unity_as_a_Library-Xamarin-example/tree/master/UnityProject/buildiOS_modifications)
 
-## Binding Platform Binaries
+ Finally, select **Product** => **Build** to compile and generate the release framework.
 
-Now that our platform binaries have been built, lets create the platform specific .NET projects that will be utilised in the MAUI app.
+The created `framework` will be found under `[Exported Unity App iOS Folder]/Build/Products/Release-iphoneos/UnityFramework.framework`.
 
-### Android
+Check that the outputted framework contains the following content:
 
-Creating the Java binding project in VS Mac.
-Drag and drop the unity aar into Jars folder.
-Done! (.NET auto-generates the interop code, usually we don't need to do anyuthing further
+ * The `Data` folder in the root of the framework.
+ * The file `Headers/Bridge.h`.
 
-### iOS
+### .NET Native Bindings
 
-Creating the iOS binding project.
-Drag and drop the framework into project.
-Add the following api definitions so that the binding project can generate the interop code.
+Once you have built the `framework` and `aar` libraries, you will need to create an Android and iOS binding project alongside the 
+
+For Android: 
+
+ * Create a new Android .NET binding project.
+ * Create a new folder named **Jars**
+ * Drag and drop the `unityLibrary-release.aar` into the **Jars** folder.
+
+For iOS:
+
+ * Create a new iOS .NET binding project.
+ * Right click on **Native References** and choose **Add Native Reference**. Locate the `UnityFramework.framework` release artifact from the previous step.
+ * Open the ApiDefinition.cs file and replace with the following content: 
 
 **ApiDefinitions.cs**
 ```
@@ -338,91 +338,106 @@ namespace iOSBridge
     }
 }
 ```
-
-## Launching the Unity Runtime
-
-How do we launch the Unity runtime?
-
-### MAUI Wrapper Code
-
-Main page has a start uhnity button
-This goes into 
-
-### Android
-
-Adding the required resources for Unity:
  
-**strings.xml**
+ * Open the StructsAndEnums.cs file and replace with the following content:
+
 ```
-<?xml version="1.0" encoding="UTF-8" ?>
-<resources>
-    <string name="game_view_content_description">Game view</string>
-</resources>
+using System.Runtime.InteropServices;
+using Foundation;
+
+namespace iOSBridge
+{
+    [StructLayout(LayoutKind.Sequential)]
+    public struct MachHeader
+    {
+        public uint magic;     /* mach magic number identifier */
+        public int cputype; /* cpu specifier ; cpu_type_t*/
+        public int cpusubtype;   /* machine specifier ; cpu_subtype_t */
+        public uint filetype;  /* type of file */
+        public uint ncmds;     /* number of load commands */
+        public uint sizeofcmds;    /* the size of all the load commands */
+        public uint flags;     /* flags */
+        public uint reserved;  /* reserved */
+    }
+}
 ```
 
-Without this resource the app will crash on launch!
+### Starting Unity In MAUI
 
- Linking to binding project.
- Creating an activity (either using the inbuilt unity launcher or through a custom activity) => Recomend custom binding, can copy the flags/settings 
- Launching this activity.
+To start the Unity app in MAUI:
 
- Removing the AAR unity activity fom the manifest
+**Android**
 
-### iOS
+Create a new `Activity` under `Platforms/Android/` named `UnityActivity` and replace it with the content defined in [/UnityActivity.cs](UnityUaalMaui/UnityUaalMaui/Platforms/Android/UnityActivity.cs).
 
- Linking to binding project.
- Creating the unity view controller.
- Loading the unity runtime.
- Launchgint the view controller
+Please review the code carefully as this file:
 
- TODO: Discuss partial classes with ifdef'ing per platform?
+ * Instantiates a new UnityPlayer and adds it as the root control of the actity.
+ * Connects the core activity callbacks into the Unity Player.
+ * Implements the data bridging API calls.
 
-## Communicating Between Unity and MAUI
+To start Unity, start the activity with a new Intent:
 
-More than likely need to send data between MAUI and Unity. To do so we create a data bridge to send stringly typed content.
+```
+public static void ShowUnityWindow()
+{
+	var intent = new Android.Content.Intent(Microsoft.Maui.ApplicationModel.Platform.CurrentActivity, typeof(UnityActivity));
+	intent.AddFlags(Android.Content.ActivityFlags.ReorderToFront);
 
-In our first few steps, we did some setup for the data communications throught the 
+	Microsoft.Maui.ApplicationModel.Platform.CurrentActivity.StartActivity(intent);
+}
+```
 
- => Receving content from unity.
+**iOS**
 
-### Android
+To start Unity, first initialise the Unity framework:
 
-Implemneting the java bruidge and IUnityContentReceiver interface
+```
+private static UnityFramework framework = null;
+public static bool IsUnityInitialised => framework != null && framework.AppController() != null;
 
-### iOS
+private static void InitialiseUnity()
+{
+    if (IsUnityInitialised)
+    {
+	return;
+    }
 
-Implmenting IUnityContentReceiver protocol.
+    framework = UnityFramework.LoadUnity();
 
-### Maui
+    framework.RegisterFrameworkListener(new UnityBridge_UnityFrameworkListener());
+    Bridge.RegisterUnityContentReceiver(new UnityBridge_UnityContentReceiver());
 
-Implemnetingn receivers in MAUI
+    framework.RunEmbedded();
+}
+```
 
------
+Then open the Unity ViewController by calling `framework.ShowUnityWindow()`:
 
-=> Sending content to Unity.
+```
+public static void ShowUnityWindow()
+{
+    if (!IsUnityInitialised)
+    {
+	InitialiseUnity();
+    }
 
- * Creating data sharing bridge in Unity
- * Implementing the data sharing bridge in Java via an Android Unity plugin
- * Implementing the data sharing bridge in Objective C via an iOS Unity plugin.
- * Implementing the data bridge in MAUI
- * Sending the data via Unity to MAUI (Bridge.SendContent)
- * Receiving the data in MAUI
- * 
- * Sending data via Maui to Unity
+    if (framework != null)
+    {
+	framework.ShowUnityWindow();
+    }
+}
+```
 
- * Returning back to the .NET app
+### Communicating Between Unity and MAUI
+
+To send and receive content from Unity, please review the platform specific implementations of the UnityBridge:
+
+ * [UnityBridge.Android.cs](UnityUaalMaui/UnityUaalMaui/UnityBridge.Android.cs)
+ * [UnityBridge.iOS.cs](UnityUaalMaui/UnityUaalMaui/UnityBridge.iOS.cs)
 
 ## Known Issues + Limitations
 
  * Sometimes crashes on Android when *receiving* data from Unity when debugger attached. Does not happen in non-debugging builds.
- * Somestimes launchign unity engine can freeze app on Android. No known cause or solution yet, still investigating. 
-
-## Summary
-
-TODO: Summarise everything above (steps, complexities, why the heck we'd do this?)
-
-If you want assistance in doing the Unity => MAUI integration, please reach out via:
-
- * Email: matthew@mfractor.com
- * LinkedIn: https://www.linkedin.com/in/matthewrdev/
+ * Somestimes launching the Unity engine can freeze app on Android. No known cause or solution yet, still investigating. 
 
