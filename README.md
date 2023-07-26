@@ -1,7 +1,7 @@
 # UnityUaal.Maui
 This code sample demonstrates how to embed [Unity](https://unity.com) into [.NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui).
 
-![Example of embedding Unity into a .NET MAUI app](/img/unity-maui-embedding.gif)
+![<img src="/img/unity-maui-embedding.gif" width="250"/>](/img/unity-maui-embedding.gif)
 
 See: https://github.com/Unity-Technologies/uaal-example
 
