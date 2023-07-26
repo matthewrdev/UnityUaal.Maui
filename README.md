@@ -433,8 +433,8 @@ public static void ShowUnityWindow()
 
 To send and receive content from Unity, please review the platform specific implementations of the UnityBridge:
 
- * [UnityBridge.Android.cs](UnityUaalMaui/UnityUaalMaui/UnityBridge.Android.cs)
- * [UnityBridge.iOS.cs](UnityUaalMaui/UnityUaalMaui/UnityBridge.iOS.cs)
+ * [UnityBridge.Android.cs](UnityUaalMaui/UnityUaalMaui/Unity/UnityBridge.Android.cs)
+ * [UnityBridge.iOS.cs](UnityUaalMaui/UnityUaalMaui/Unity/UnityBridge.iOS.cs)
 
 ## Known Issues + Limitations
 
