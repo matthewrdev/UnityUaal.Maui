@@ -25,7 +25,7 @@ If you want assistance in doing the Unity => MAUI integration, please reach out 
 
 My time is somewhat limited but I'll provide assistance where I can.
 
-## Why Embedd Unity Into MAUI?
+## Why Embed Unity Into MAUI?
 
 Lets compare the strengths and weakness of app development using Unity vs .NET MAUI:
 
