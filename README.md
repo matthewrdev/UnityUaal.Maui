@@ -60,8 +60,6 @@ Therefore, by combining these two technologies, we can get the best of both worl
 
 ## Integrating Unity Into MAUI
 
-This section briefly outlines the 
-
 ### Unity Project Overview
 
 The [Unity Project](/UnityApp) contains the following:
