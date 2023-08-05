@@ -50,9 +50,9 @@ Lets compare the strengths and weakness of app development using Unity vs .NET M
 
 While Unity is an incredible platform to create 3D experiences, it is not a good choice for a modern, native apps. Unity to simplifies building augmented or virtual reality experiences, and gives us a full engine for rendering 3D environments however it's UI frameworks are limited as are its access to 3rd party vendors.
 
-On the other side, MAUI can create fully native iOS and Android apps. We gain access to the full .NET ecosystem, utilising the latest language features and a large libary of NuGet packages. However creating a 3d experience in MAUI requires writing a 3d rendering pipeline from near scratch... and this is not an easy task!
+On the other side, MAUI can create fully native iOS and Android apps. We gain access to the full .NET ecosystem, utilising the latest language features and a large libary of NuGet packages. However creating a 3d experience in MAUI requires writing a rendering pipeline from near scratch... and this is not an easy task!
 
-Therefore, by combining these two technologies, we can get the best of both worlds:
+By combining these two technologies, we can get the best of both worlds:
 
  * Use an industry leader in games/3D technologies.
  * Fully x-plat code base in a native app. A fully native UI with no restrictions!
@@ -66,8 +66,8 @@ The [Unity Project](/UnityApp) contains the following:
 
  * A single scene with some geometry.
  * A [script for controlling the camera via touch gestures](/UnityApp/Assets/Scripts/CameraZoom.cs).
- * A [script that defines APIs for sharing data from Unity to MAUI via the data bridge](/UnityApp/Assets/Scripts/Bridge.cs).
- * Native plugins for [iOS](/UnityApp/Assets/Plugins/iOS) and [Android](/UnityApp/Assets/Plugins/Android) that define APIs for sharing data from MAUI to Unity via the data bridge.
+ * A [script for sharing data between Unity and MAUI within the Untiy runtime.](/UnityApp/Assets/Scripts/Bridge.cs).
+ * Native plugins for [iOS](/UnityApp/Assets/Plugins/iOS) and [Android](/UnityApp/Assets/Plugins/Android) that define APIs for sharing data between MAUI and Unity.
 
 ### Exporting Platform Projects
 
