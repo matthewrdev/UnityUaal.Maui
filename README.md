@@ -10,7 +10,7 @@ Requires:
  * Unity (using 23.01.0a20)
  * Xcode
  * Android Studio
- * Visual Studio Mac with MAUI workloads installed
+ * Jetbrains Rider or Visual Studio Code with MAUI workloads installed
 
 Additionally, assumes familarity, or at least exposure to:
 
