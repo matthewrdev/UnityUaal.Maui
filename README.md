@@ -18,12 +18,14 @@ Additionally, assumes familarity, or at least exposure to:
  * .NET development using the Visual Studio family.
  * Unity development.
    
-If you want assistance in doing the Unity => MAUI integration, please reach out via:
+If you need assistance in doing the Unity => MAUI integration, please reach out via:
 
  * Email: matthew@mfractor.com
  * LinkedIn: https://www.linkedin.com/in/matthewrdev/
 
-My time is somewhat limited but I'll provide assistance where I can.
+I am always happy to help diagnose issues and provide guidance. 
+
+I can also offer engineering assistance if required.
 
 ## Why Embed Unity Into MAUI?
 
