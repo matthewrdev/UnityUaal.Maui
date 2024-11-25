@@ -27,8 +27,8 @@ I am always happy to help diagnose issues and provide guidance and I can also of
 
 As a real world example, we are using Unity x MAUI in Red-Point:
 
-https://apps.apple.com/au/app/red-point/id1670082950
-https://play.google.com/store/apps/details?id=com.alphaoutdoors.redpoint&hl=en_AU
+ * https://apps.apple.com/au/app/red-point/id1670082950
+ * https://play.google.com/store/apps/details?id=com.alphaoutdoors.redpoint&hl=en_AU
 
 ## Why Embed Unity Into MAUI?
 
