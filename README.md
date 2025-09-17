@@ -1,4 +1,13 @@
 # UnityUaal.Maui
+
+## Disclaimer
+
+**We are no longer using Unity in Red-Point.**
+
+Going forward, I recommend using [Evergine](https://evergine.com) to embed 3D into a .NET MAUI app. Please connect if you would like further clarification.
+
+## About
+
 This code sample demonstrates how to embed [Unity](https://unity.com) into [.NET MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui).
 
 <img src="img/unity-maui-embedding.gif" width="30%" height="30%">
@@ -25,7 +34,7 @@ If you need assistance in doing the Unity => MAUI integration, please reach out 
 
 I am always happy to help diagnose issues and provide guidance and I can also offer engineering assistance if required.
 
-As a real world example, we are using Unity x MAUI in Red-Point:
+~As a real world example, we are using Unity x MAUI in Red-Point:~
 
  * https://apps.apple.com/au/app/red-point/id1670082950
  * https://play.google.com/store/apps/details?id=com.alphaoutdoors.redpoint&hl=en_AU
