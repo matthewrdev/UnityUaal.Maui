@@ -2,9 +2,9 @@
 
 ## Disclaimer
 
-**We are no longer using Unity in Red-Point.**
+We are no longer using Unity in Red-Point.
 
-Going forward, I recommend using [Evergine](https://evergine.com) to embed 3D into a .NET MAUI app. Please connect if you would like further clarification.
+Going forward, I **strongly** recommend using [Evergine](https://evergine.com) to embed 3D into a .NET MAUI app. Please connect if you would like further clarification.
 
 ## About
 
